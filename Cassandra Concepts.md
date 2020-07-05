@@ -18,7 +18,7 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 8. 
 9. **Gossip** - this is the protocol used by Nodes to talk to each other.
 10. **Anti entropy**
-11. **CAP theorem** Brewers theorem *Eventual consistency**
+11. **CAP theorem** Brewers theorem **Eventual consistency**
 13. **Paxos algorithm**
 14. **Acid**
 15. **Base**
@@ -38,6 +38,6 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 
 ## Cassandra Algorithm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMDQ3NzM3OCwxNTM1MjEyNzQ5LDYxNz
-g5NDY5NiwtMTY0MzA1OTQ1MV19
+eyJoaXN0b3J5IjpbLTY4OTgxMDU0NCwtNzMwNDc3Mzc4LDE1Mz
+UyMTI3NDksNjE3ODk0Njk2LC0xNjQzMDU5NDUxXX0=
 -->
