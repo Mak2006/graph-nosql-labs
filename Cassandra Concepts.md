@@ -13,41 +13,46 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 3. **Partition index**
 4. **Partition**, Partition range, Partitioner
 5. **Snitch**
-6. **Seeds**
-7. **Hashing**
-8. **Consistency Level**
-9. **Replication Level**
-10. **Keyspace**
-11.  **Key cache**
-12. **Memtable** 
-13.  **SSTable**
-14. **Gossip** - this is the protocol used by Nodes to talk to each other.
-15. **Anti entropy**
-16. **CAP theorem** Brewers theorem **Eventual consistency**
-17. **Paxos algorithm**
-18. **Hotspot**
-19. **Acid**
-20. **Base**
-21. **Bloom Filter**
-22. **C**
-23. **C cluster**
-24. **CQL**
-25. **cqlsh**
-26. **C* yaml**
-27. **Token**
-28. **Ring**
-29. **Data center** **Rack**
-30. **Primary Key**
-31. **Clustering column**
-32. **Commit Log**
-33. **Compaction**
-34. **Node repair**
-35. **Nodetool**
-36. **Quorum**
+6. **Seeds**, **Seed node**
+7. **Data types** Set, Map 	
+8. **Hashing**
+9. **Consistency Level**
+10. **Replication Level**
+11. **Sharding Shard**
+12. **Keyspace**
+13.  **Key cache**
+14. **Memtable** 
+15.  **SSTable**
+16. **Gossip** - this is the protocol used by Nodes to talk to each other.
+17. **Anti entropy**
+18. **CAP theorem** Brewers theorem **Eventual consistency**
+19. **Paxos algorithm**
+20. **Hotspot**
+21. **Acid**
+22. **Base**
+23. **Bloom Filter**
+24. **C**
+25. **C cluster**
+26. **CQL**
+27. **cqlsh**
+28. **C* yaml**
+29. **Token**
+30. **Ring**
+31. **Data center** **Rack**
+32. **Primary Key**
+33. **Clustering column**
+34. **Commit Log**
+35. **Compaction**
+36. **Node repair**
+37. **Nodetool**
+38. **Quorum**
+39. **Rolling restart**
+40. **SEDA**
+41. 
 
 ## Cassandra Algorithm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0Nzc1NDAyOCwtMTU2OTQ4NDk4NSwtNz
-MwNDc3Mzc4LDE1MzUyMTI3NDksNjE3ODk0Njk2LC0xNjQzMDU5
-NDUxXX0=
+eyJoaXN0b3J5IjpbLTQ5NjY3MzcwNSwtNTQ3NzU0MDI4LC0xNT
+Y5NDg0OTg1LC03MzA0NzczNzgsMTUzNTIxMjc0OSw2MTc4OTQ2
+OTYsLTE2NDMwNTk0NTFdfQ==
 -->
