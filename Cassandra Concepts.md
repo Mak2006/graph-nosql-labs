@@ -11,7 +11,7 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 1. **Node** - A single Cassandra instance, this is on a machine. This machine may be on a separate  network and may contain other nodes. Two nodes can be geographically separated, altogether in a separate data center and be in separate networks. Nodes can see each other, that is each node is connected to other nodes, even though they may be separated.  
 2. **Partition Key**
 3. **Partition index**
-4. **Partition**
+4. **Partition**, Partition range, Partitioner
 5. **Snitch**
 6. **Seeds**
 7. **Hashing**
@@ -36,16 +36,18 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 26. **C* yaml**
 27. **Token**
 28. **Ring**
-29. **Primary Key**
-30. **Clustering column**
-31. **Commit Log**
-32. **Compaction**
-33. **Node repair**
-34. **Nodetool**
+29. **Data center** **Rack**
+30. **Primary Key**
+31. **Clustering column**
+32. **Commit Log**
+33. **Compaction**
+34. **Node repair**
+35. **Nodetool**
+36. **Quorum**
 
 ## Cassandra Algorithm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTgyNjc1NTYsLTE1Njk0ODQ5ODUsLT
-czMDQ3NzM3OCwxNTM1MjEyNzQ5LDYxNzg5NDY5NiwtMTY0MzA1
-OTQ1MV19
+eyJoaXN0b3J5IjpbLTU0Nzc1NDAyOCwtMTU2OTQ4NDk4NSwtNz
+MwNDc3Mzc4LDE1MzUyMTI3NDksNjE3ODk0Njk2LC0xNjQzMDU5
+NDUxXX0=
 -->
