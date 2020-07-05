@@ -8,8 +8,9 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 2. **Distributed database holding big data** - Big data is data too large for a single server. The issue how can we make database divided into two or more parts each on its own server having different network, yet the database behaves as a single database. 
 
 ## Concepts 
-1. Node - A single Cassandra instance, this is on a machine where 
+1. **Node** - A single Cassandra instance, this is on a machine. This may be on a separate  network and may contain other nodes. The network can be geographically separated, altogether in a separate data center. 
+2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTk3MTE4NjEsNjE3ODk0Njk2LC0xNj
-QzMDU5NDUxXX0=
+eyJoaXN0b3J5IjpbMTUzNTIxMjc0OSw2MTc4OTQ2OTYsLTE2ND
+MwNTk0NTFdfQ==
 -->
