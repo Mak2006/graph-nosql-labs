@@ -20,7 +20,7 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 10. **Anti entropy**
 11. **CAP theorem** Brewers theorem **Eventual consistency**
 12. **Paxos algorithm**
-13. **strong text**
+13. **Hotspot**
 14. **Acid**
 15. **Base**
 16. **Bloom Filter**
@@ -39,6 +39,6 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 
 ## Cassandra Algorithm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDgxNjg3MTksLTczMDQ3NzM3OCwxNT
-M1MjEyNzQ5LDYxNzg5NDY5NiwtMTY0MzA1OTQ1MV19
+eyJoaXN0b3J5IjpbMTEyMjg4MTc4NCwtNzMwNDc3Mzc4LDE1Mz
+UyMTI3NDksNjE3ODk0Njk2LC0xNjQzMDU5NDUxXX0=
 -->
