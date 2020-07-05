@@ -16,30 +16,32 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 6. **Consistency Level**
 7. **Replication Level**
 8. **Keyspace**
-9.  **Key space**
-10. **Gossip** - this is the protocol used by Nodes to talk to each other.
-11. **Anti entropy**
-12. **CAP theorem** Brewers theorem **Eventual consistency**
-13. **Paxos algorithm**
-14. **Hotspot**
-15. **Acid**
-16. **Base**
-17. **Bloom Filter**
-18. **C**
-19. **C cluster**
-20. **CQL**
-21. **cqlsh**
-22. **C* yaml**
-23. **Token**
-24. **Ring**
-25. **Primary Key**
-26. **Clustering column**
-27. **Commit Log**
-28. **Compaction**
-29. 
+9.  **Key cache**
+10. **Memtable** 
+11.  **SSTable**
+12. **Gossip** - this is the protocol used by Nodes to talk to each other.
+13. **Anti entropy**
+14. **CAP theorem** Brewers theorem **Eventual consistency**
+15. **Paxos algorithm**
+16. **Hotspot**
+17. **Acid**
+18. **Base**
+19. **Bloom Filter**
+20. **C**
+21. **C cluster**
+22. **CQL**
+23. **cqlsh**
+24. **C* yaml**
+25. **Token**
+26. **Ring**
+27. **Primary Key**
+28. **Clustering column**
+29. **Commit Log**
+30. **Compaction**
+31. 
 
 ## Cassandra Algorithm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NjUzNDQ3LC03MzA0NzczNzgsMTUzNT
-IxMjc0OSw2MTc4OTQ2OTYsLTE2NDMwNTk0NTFdfQ==
+eyJoaXN0b3J5IjpbLTE1Njk0ODQ5ODUsLTczMDQ3NzM3OCwxNT
+M1MjEyNzQ5LDYxNzg5NDY5NiwtMTY0MzA1OTQ1MV19
 -->
