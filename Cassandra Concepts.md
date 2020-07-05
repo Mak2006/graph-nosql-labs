@@ -9,22 +9,29 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 
 ## Concepts 
 1. **Node** - A single Cassandra instance, this is on a machine. This machine may be on a separate  network and may contain other nodes. Two nodes can be geographically separated, altogether in a separate data center and be in separate networks. Nodes can see each other, that is each node is connected to other nodes, even though they may be separated.  
-2. **Seeds**
-3. **Gossip** - this is the protocol used by Nodes to talk to each other.
-4. **Anti entropy**
-5. **CAP theorem** Brewers theorem
-6. **Paxos algorithm**
-7. **Acid**
-8. **Base**
-9. **Bloom Filter**
-10. **C**
-11. **C cluster**
-12. **CQL**
-13. **C* yaml**
-14. 
+2. **Partition Key**
+3. **Seeds**
+4. **Gossip** - this is the protocol used by Nodes to talk to each other.
+5. **Anti entropy**
+6. **CAP theorem** Brewers theorem
+7. **Paxos algorithm**
+8. **Acid**
+9. **Base**
+10. **Bloom Filter**
+11. **C**
+12. **C cluster**
+13. **CQL**
+14. **C* yaml**
+15. **Token**
+16. **Ring**
+17. **Primary Key**
+18. **Clustering column**
+19. **Commit Log**
+20. **Compaction**
+21. 
 
- 
+## Cassandra Algorithm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjMyNzI3MzEsMTUzNTIxMjc0OSw2MT
-c4OTQ2OTYsLTE2NDMwNTk0NTFdfQ==
+eyJoaXN0b3J5IjpbLTQ1ODQyODI1MCwxNTM1MjEyNzQ5LDYxNz
+g5NDY5NiwtMTY0MzA1OTQ1MV19
 -->
