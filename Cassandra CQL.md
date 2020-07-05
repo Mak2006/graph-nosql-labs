@@ -62,11 +62,11 @@ read_repair_chance = 0.0
 
 ### Insert commands
 ```
-INSERT INTO killrvideo.users (userid, firstname, lastname, email, created_date)
+INSERT INTO killrvideo.users (userid, firstname, lastname, email, created_date)+
   VALUES(uuid(), 'Jeff', 'Carpenter', 'jc@datastax.com', toTimestamp(now()));
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2ODI2NjM4NSwtNjU0ODIwNDk5LDE1MD
-M3OTQ1ODYsMzkzNzEyMDAwXX0=
+eyJoaXN0b3J5IjpbLTcwNzE4ODQwMCwyMDY4MjY2Mzg1LC02NT
+Q4MjA0OTksMTUwMzc5NDU4NiwzOTM3MTIwMDBdfQ==
 -->
