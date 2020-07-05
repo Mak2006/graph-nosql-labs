@@ -7,6 +7,21 @@
 ### Create commands
 
 ```
+//Basic syntax
+CREATE TABLE killrvideo.users (
+//  colName datatype,
+    userid uuid,
+    firstname text, 
+    lastname text, 
+    email text,
+    created_date timestamp,
+    PRIMARY KEY (userid)
+) {optional WITH statement};
+ 
+```
+A full 
+
+```
 CREATE TABLE keyspName.tablName (
 //  colName datatype,
     videoid uuid,
@@ -36,5 +51,5 @@ read_repair_chance = 0.0
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMzMzYwNzM4LDM5MzcxMjAwMF19
+eyJoaXN0b3J5IjpbNTQ3MzExNDAxLDM5MzcxMjAwMF19
 -->
