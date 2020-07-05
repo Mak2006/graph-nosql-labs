@@ -1,7 +1,8 @@
 ## CQL commands
 
 ### Meta commands
-`Describe keyspace keyspaceName`
+// Describe the schema of the keyspace
+`Describe keyspace keyspaceName` 
 
 
 ### Create commands
@@ -62,6 +63,6 @@ read_repair_chance = 0.0
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzODU1NTExMSwxNTAzNzk0NTg2LDM5Mz
+eyJoaXN0b3J5IjpbLTY1NDgyMDQ5OSwxNTAzNzk0NTg2LDM5Mz
 cxMjAwMF19
 -->
