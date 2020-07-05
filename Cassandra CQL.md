@@ -5,7 +5,18 @@
 
 
 ### Create commands
+**Create keyspace**
+```
+CREATE  KEYSPACE [IF NOT EXISTS] keyspace_name 
+   WITH REPLICATION = { 
+      'class' : 'SimpleStrategy', 'replication_factor' : N } 
+     | 'class' : 'NetworkTopologyStrategy', 
+       'dc1_name' : N [, ...] 
+   }
+   [AND DURABLE_WRITES =  true|false] ;
+```
 
+**Create syntax**
 ```
 //Basic syntax
 CREATE TABLE killrvideo.users (
@@ -51,5 +62,6 @@ read_repair_chance = 0.0
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMzc5NDU4NiwzOTM3MTIwMDBdfQ==
+eyJoaXN0b3J5IjpbMjEzODU1NTExMSwxNTAzNzk0NTg2LDM5Mz
+cxMjAwMF19
 -->
