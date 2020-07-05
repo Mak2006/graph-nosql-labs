@@ -9,8 +9,10 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 
 ## Concepts 
 1. **Node** - A single Cassandra instance, this is on a machine. This machine may be on a separate  network and may contain other nodes. Two nodes can be geographically separated, altogether in a separate data center and be in separate networks. Nodes can see each other, that is each node is connected to other nodes, even though they may be separated.  
-2. 
+2. **Seeds**
+3. **Gossip** - this is the protocol used by 
+4. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMTY5NzMwMywxNTM1MjEyNzQ5LDYxNz
-g5NDY5NiwtMTY0MzA1OTQ1MV19
+eyJoaXN0b3J5IjpbNjQyNjM5MjMzLDE1MzUyMTI3NDksNjE3OD
+k0Njk2LC0xNjQzMDU5NDUxXX0=
 -->
