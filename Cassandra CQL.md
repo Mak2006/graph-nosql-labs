@@ -19,7 +19,7 @@ CREATE TABLE killrvideo.users (
 ) {optional WITH statement};
  
 ```
-A full 
+A full blown create statement
 
 ```
 CREATE TABLE keyspName.tablName (
@@ -51,5 +51,5 @@ read_repair_chance = 0.0
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ3MzExNDAxLDM5MzcxMjAwMF19
+eyJoaXN0b3J5IjpbMTUwMzc5NDU4NiwzOTM3MTIwMDBdfQ==
 -->
