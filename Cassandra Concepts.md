@@ -28,7 +28,7 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 17. **Sharding Shard**
 18. **Keyspace**
 19.  **Key cache**
-20. 
+20. **Ring** the sequence of nodes
 21.  
 22. **Gossip** - this is the protocol used by Nodes to talk to each other.
 23. **Anti entropy**
@@ -59,9 +59,9 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 
 ## Cassandra Algorithm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE1MTk0MzYxLDU4MjExMzE0MiwtNTQ3OD
-kxNzQ1LDE5ODI5NTgyOTcsODI2MDQ0MTQ2LC0xMjgyOTU5Nzc0
-LC00OTY2NzM3MDUsLTU0Nzc1NDAyOCwtMTU2OTQ4NDk4NSwtNz
-MwNDc3Mzc4LDE1MzUyMTI3NDksNjE3ODk0Njk2LC0xNjQzMDU5
-NDUxXX0=
+eyJoaXN0b3J5IjpbOTY4MjIyOTQ1LDIxNTE5NDM2MSw1ODIxMT
+MxNDIsLTU0Nzg5MTc0NSwxOTgyOTU4Mjk3LDgyNjA0NDE0Niwt
+MTI4Mjk1OTc3NCwtNDk2NjczNzA1LC01NDc3NTQwMjgsLTE1Nj
+k0ODQ5ODUsLTczMDQ3NzM3OCwxNTM1MjEyNzQ5LDYxNzg5NDY5
+NiwtMTY0MzA1OTQ1MV19
 -->
