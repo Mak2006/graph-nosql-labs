@@ -11,7 +11,7 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 1. **Node** - A single Cassandra instance, this is on a machine. This machine may be on a separate  network and may contain other nodes. Two nodes can be geographically separated, altogether in a separate data center and be in separate networks. Nodes can see each other, that is each node is connected to other nodes, even though they may be separated.  
 2. **Algorithm** - the key algorithm of cassandra is then 
 	1. Distribute the data accross different nodes, each node has a part of the data. These data parts are called partitions. Partitions are based on some key using which we can divide the data. To maintain failover, the nodes also have additional responsibility of having other partitions as well.  
-3. **Partition Key** - A grouping of some
+3. **Partition Key** - In C*, a partition key is A hash generated from the first column of a primary key. 
 4. **Partition index**
 5. **Partition**, Partition range, Partitioner
 6. **Token**, **Token range**
@@ -55,8 +55,8 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 
 ## Cassandra Algorithm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI2MDQ0MTQ2LC0xMjgyOTU5Nzc0LC00OT
-Y2NzM3MDUsLTU0Nzc1NDAyOCwtMTU2OTQ4NDk4NSwtNzMwNDc3
-Mzc4LDE1MzUyMTI3NDksNjE3ODk0Njk2LC0xNjQzMDU5NDUxXX
-0=
+eyJoaXN0b3J5IjpbMzkwMTI4MTA1LDgyNjA0NDE0NiwtMTI4Mj
+k1OTc3NCwtNDk2NjczNzA1LC01NDc3NTQwMjgsLTE1Njk0ODQ5
+ODUsLTczMDQ3NzM3OCwxNTM1MjEyNzQ5LDYxNzg5NDY5NiwtMT
+Y0MzA1OTQ1MV19
 -->
