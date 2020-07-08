@@ -17,48 +17,50 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 6. **Partitioner** - The one that decides which partition the data goes in. The default program is the **Murmur3Partitioner**, other is **RandomPartitioner**
 7. **Token** - One hash of a row, calculated by the partitioner
 8. **Token range** - The range of possible tokens possible. This is subset of partition range.
-9. **Snitch**
-10. **Seeds**, **Seed node**
-11. **Data types** Set, Map 	
-12. **Hashing**
-13. **Consistency Level**
-14. **Replication Level**
-15. **Sharding Shard**
-16. **Keyspace**
-17.  **Key cache**
-18. **Memtable** 
-19.  **SSTable**
-20. **Gossip** - this is the protocol used by Nodes to talk to each other.
-21. **Anti entropy**
-22. **CAP theorem** Brewers theorem **Eventual consistency**
-23. **Paxos algorithm**
-24. **Hotspot**
-25. **Acid**
-26. **Base**
-27. **Bloom Filter**
-28. **C**
-29. **C cluster**
-30. **CQL**
-31. **cqlsh**
-32. **C* yaml**
-33. **Token**
-34. **Ring**
-35. **Data center** **Rack**
-36. **Primary Key**
-37. **Clustering column**
-38. **Commit Log**
-39. **Compaction**
-40. **Node repair**
-41. **Nodetool**
-42. **Quorum**
-43. **Rolling restart**
-44. **SEDA**
-45. 
+9. **SSTable****Memtable** 
+10. **Snitch**
+11. **Seeds**, **Seed node**
+12. **Data types** Set, Map 	
+13. **Hashing**
+14. **Consistency Level**
+15. **Replication Level**
+16. **Sharding Shard**
+17. **Keyspace**
+18.  **Key cache**
+19. 
+20.  
+21. **Gossip** - this is the protocol used by Nodes to talk to each other.
+22. **Anti entropy**
+23. **CAP theorem** Brewers theorem **Eventual consistency**
+24. **Paxos algorithm**
+25. **Hotspot**
+26. **Acid**
+27. **Base**
+28. **Bloom Filter**
+29. **C**
+30. **C cluster**
+31. **CQL**
+32. **cqlsh**
+33. **C* yaml**
+34. **Token**
+35. **Ring**
+36. **Data center** **Rack**
+37. **Primary Key**
+38. **Clustering column**
+39. **Commit Log**
+40. **Compaction**
+41. **Node repair**
+42. **Nodetool**
+43. **Quorum**
+44. **Rolling restart**
+45. **SEDA**
+46. 
 
 ## Cassandra Algorithm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgyMTEzMTQyLC01NDc4OTE3NDUsMTk4Mj
-k1ODI5Nyw4MjYwNDQxNDYsLTEyODI5NTk3NzQsLTQ5NjY3Mzcw
-NSwtNTQ3NzU0MDI4LC0xNTY5NDg0OTg1LC03MzA0NzczNzgsMT
-UzNTIxMjc0OSw2MTc4OTQ2OTYsLTE2NDMwNTk0NTFdfQ==
+eyJoaXN0b3J5IjpbLTg3MTg5NDIwLDU4MjExMzE0MiwtNTQ3OD
+kxNzQ1LDE5ODI5NTgyOTcsODI2MDQ0MTQ2LC0xMjgyOTU5Nzc0
+LC00OTY2NzM3MDUsLTU0Nzc1NDAyOCwtMTU2OTQ4NDk4NSwtNz
+MwNDc3Mzc4LDE1MzUyMTI3NDksNjE3ODk0Njk2LC0xNjQzMDU5
+NDUxXX0=
 -->
