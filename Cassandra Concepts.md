@@ -5,7 +5,7 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 
 ## Salient points
 1. **Problem statement** - How can we have  reliable distributed database holding big data, which may not be as consistent but available and partition tolerant. 
-2. **Distributed database holding big data** - Big data is data too large for a single server. The issue how can we make database divided into two or more parts each on its own server having different network, yet the database behaves as a single database. 
+2. **Distributed database holding big data** - Big data is defined using the V's. For our purpose it is that data which is too large for a single server. The issue then is how can we make database divided into two or more parts each on its own server having different network, yet the database behaves as a single database. 
 
 ## Concepts 
 1. **Node** - A single Cassandra instance, this is on a machine. This machine may be on a separate  network and may contain other nodes. Two nodes can be geographically separated, altogether in a separate data center and be in separate networks. Nodes can see each other, that is each node is connected to other nodes, even though they may be separated.  
@@ -52,7 +52,7 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 
 ## Cassandra Algorithm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NjY3MzcwNSwtNTQ3NzU0MDI4LC0xNT
-Y5NDg0OTg1LC03MzA0NzczNzgsMTUzNTIxMjc0OSw2MTc4OTQ2
-OTYsLTE2NDMwNTk0NTFdfQ==
+eyJoaXN0b3J5IjpbLTEyODI5NTk3NzQsLTQ5NjY3MzcwNSwtNT
+Q3NzU0MDI4LC0xNTY5NDg0OTg1LC03MzA0NzczNzgsMTUzNTIx
+Mjc0OSw2MTc4OTQ2OTYsLTE2NDMwNTk0NTFdfQ==
 -->
