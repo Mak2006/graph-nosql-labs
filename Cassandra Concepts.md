@@ -13,7 +13,7 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 	1. Distribute the data accross different nodes, each node has a part of the data. These data parts are called partitions. Partitions are based on some key using which we can divide the data. To maintain failover, the nodes also have additional responsibility of having other partitions as well.  
 3. **Partition Key** - In C*, a partition key is required to be defined. It is consists of at least on column. So when a row comes in, the **Partitoner**, uses a hash function on the value of the column and creates a **Token**. The all possible values of these token is the **token range**.  Each of the nodes now are designated to hold data for a subset of the total token range. The Partitioners pushes the data to that node designated for that token range.  
 4. **Partition index** - An on-disk data structure for SSTables which lists partition keys, their file offset position for each keys' corresponding partition in the SSTable.
-5. **Partition** - A section of the data. 
+5. **Partition** - A section of the data.  Part of a table
 6. **Partitioner** - The one that decides which partition the data goes in. The default program is the **Murmur3Partitioner**, other is **RandomPartitioner**
 7. **Token** - One hash of a row, calculated by the partitioner
 8. **Token range** - The range of possible tokens possible. This is subset of partition range.
@@ -29,7 +29,7 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 18. **Keyspace**
 19.  **Key cache**
 20. **Ring** the sequence of nodes
-21.  
+21.  **Sharding**
 22. **Gossip** - this is the protocol used by Nodes to talk to each other.
 23. **Anti entropy**
 24. **CAP theorem** Brewers theorem **Eventual consistency**
@@ -59,9 +59,9 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 
 ## Cassandra Algorithm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY4MjIyOTQ1LDIxNTE5NDM2MSw1ODIxMT
-MxNDIsLTU0Nzg5MTc0NSwxOTgyOTU4Mjk3LDgyNjA0NDE0Niwt
-MTI4Mjk1OTc3NCwtNDk2NjczNzA1LC01NDc3NTQwMjgsLTE1Nj
-k0ODQ5ODUsLTczMDQ3NzM3OCwxNTM1MjEyNzQ5LDYxNzg5NDY5
-NiwtMTY0MzA1OTQ1MV19
+eyJoaXN0b3J5IjpbMTc2MzgyNDQ2NCwyMTUxOTQzNjEsNTgyMT
+EzMTQyLC01NDc4OTE3NDUsMTk4Mjk1ODI5Nyw4MjYwNDQxNDYs
+LTEyODI5NTk3NzQsLTQ5NjY3MzcwNSwtNTQ3NzU0MDI4LC0xNT
+Y5NDg0OTg1LC03MzA0NzczNzgsMTUzNTIxMjc0OSw2MTc4OTQ2
+OTYsLTE2NDMwNTk0NTFdfQ==
 -->
