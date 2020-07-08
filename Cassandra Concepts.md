@@ -11,7 +11,7 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 1. **Node** - A single Cassandra instance, this is on a machine. This machine may be on a separate  network and may contain other nodes. Two nodes can be geographically separated, altogether in a separate data center and be in separate networks. Nodes can see each other, that is each node is connected to other nodes, even though they may be separated.  
 2. **Algorithm** - the key algorithm of cassandra is then 
 	1. Distribute the data accross different nodes, each node has a part of the data. These data parts are called partitions. Partitions are based on some key using which we can divide the data. To maintain failover, the nodes also have additional responsibility of having other partitions as well.  
-3. **Partition Key** - In C*, a partition key is required to be defined. It is consists of at least on column. So when a row comes in, the **Partitoner**, uses a hash function on the value of the column and creates a **Token**. The all possible values of these token is the **token range**.  Each of the nodes now are designated to hold data for a subset of the total token range. The Partitioners pushes the data to that node designated for that token range.  
+3. **Partition Key** - In C*, a partition key is required to be defined. It is consists of at least on column. So when a row comes in, the **Partitoner**, uses a hash function on the value of the column and creates a **Token**. The all possible values of these token is the **token range**.  Each of the nodes now are designated to hold data for a subset of the total token range. The Partitioners pushes the data to that node designated for that token range.  Partition key is at least a single column. It can be multiple columns as well. So primary key =  
 4. **Partition index** - An on-disk data structure for SSTables which lists partition keys, their file offset position for each keys' corresponding partition in the SSTable.
 5. **Partition** - A section of the data.  Part of a table
 6. **Partitioner** - The one that decides which partition the data goes in. The default program is the **Murmur3Partitioner**, other is **RandomPartitioner**
@@ -60,9 +60,9 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 
 ## Cassandra Algorithm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NDEyNDI3MSwyMTUxOTQzNjEsNTgyMT
-EzMTQyLC01NDc4OTE3NDUsMTk4Mjk1ODI5Nyw4MjYwNDQxNDYs
-LTEyODI5NTk3NzQsLTQ5NjY3MzcwNSwtNTQ3NzU0MDI4LC0xNT
-Y5NDg0OTg1LC03MzA0NzczNzgsMTUzNTIxMjc0OSw2MTc4OTQ2
-OTYsLTE2NDMwNTk0NTFdfQ==
+eyJoaXN0b3J5IjpbLTExMzYyODExMTAsLTg0NDEyNDI3MSwyMT
+UxOTQzNjEsNTgyMTEzMTQyLC01NDc4OTE3NDUsMTk4Mjk1ODI5
+Nyw4MjYwNDQxNDYsLTEyODI5NTk3NzQsLTQ5NjY3MzcwNSwtNT
+Q3NzU0MDI4LC0xNTY5NDg0OTg1LC03MzA0NzczNzgsMTUzNTIx
+Mjc0OSw2MTc4OTQ2OTYsLTE2NDMwNTk0NTFdfQ==
 -->
