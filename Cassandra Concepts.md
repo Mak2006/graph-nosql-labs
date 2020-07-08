@@ -25,41 +25,42 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 14. **Hashing**
 15. **Consistency Level**
 16. **Replication Level**
-17. **Sharding Shard**
-18. **Keyspace**
-19.  **Key cache**
-20. **Ring** the sequence of nodes
-21.  **Sharding**
-22. **Gossip** - this is the protocol used by Nodes to talk to each other.
-23. **Anti entropy**
-24. **CAP theorem** Brewers theorem **Eventual consistency**
-25. **Paxos algorithm**
-26. **Hotspot**
-27. **Acid**
-28. **Base**
-29. **Bloom Filter**
-30. **C**
-31. **C cluster**
-32. **CQL**
-33. **cqlsh**
-34. **C* yaml**
-35. **Token**
-36. **Ring**
-37. **Data center** **Rack**
-38. **Primary Key**
-39. **Clustering column**
-40. **Commit Log**
-41. **Compaction**
-42. **Node repair**
-43. **Nodetool**
-44. **Quorum**
-45. **Rolling restart**
-46. **SEDA**
-47. 
+17. **Replication strategy**
+18. **Sharding Shard**
+19. **Keyspace**
+20.  **Key cache**
+21. **Ring** the sequence of nodes
+22.  **Sharding**
+23. **Gossip** - this is the protocol used by Nodes to talk to each other.
+24. **Anti entropy**
+25. **CAP theorem** Brewers theorem **Eventual consistency**
+26. **Paxos algorithm**
+27. **Hotspot**
+28. **Acid**
+29. **Base**
+30. **Bloom Filter**
+31. **C**
+32. **C cluster**
+33. **CQL**
+34. **cqlsh**
+35. **C* yaml**
+36. **Token**
+37. **Ring**
+38. **Data center** **Rack**
+39. **Primary Key**
+40. **Clustering column**
+41. **Commit Log**
+42. **Compaction**
+43. **Node repair**
+44. **Nodetool**
+45. **Quorum**
+46. **Rolling restart**
+47. **SEDA**
+48. 
 
 ## Cassandra Algorithm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MzgyNDQ2NCwyMTUxOTQzNjEsNTgyMT
+eyJoaXN0b3J5IjpbLTg0NDEyNDI3MSwyMTUxOTQzNjEsNTgyMT
 EzMTQyLC01NDc4OTE3NDUsMTk4Mjk1ODI5Nyw4MjYwNDQxNDYs
 LTEyODI5NTk3NzQsLTQ5NjY3MzcwNSwtNTQ3NzU0MDI4LC0xNT
 Y5NDg0OTg1LC03MzA0NzczNzgsMTUzNTIxMjc0OSw2MTc4OTQ2
