@@ -14,7 +14,7 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 3. **Partition Key** - A grouping of some
 4. **Partition index**
 5. **Partition**, Partition range, Partitioner
-6. **Token**, **Token r**
+6. **Token**, **Token range**
 7. **Snitch**
 8. **Seeds**, **Seed node**
 9. **Data types** Set, Map 	
@@ -55,7 +55,7 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 
 ## Cassandra Algorithm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTczNjQwMjMxLC0xMjgyOTU5Nzc0LC00OT
+eyJoaXN0b3J5IjpbODI2MDQ0MTQ2LC0xMjgyOTU5Nzc0LC00OT
 Y2NzM3MDUsLTU0Nzc1NDAyOCwtMTU2OTQ4NDk4NSwtNzMwNDc3
 Mzc4LDE1MzUyMTI3NDksNjE3ODk0Njk2LC0xNjQzMDU5NDUxXX
 0=
