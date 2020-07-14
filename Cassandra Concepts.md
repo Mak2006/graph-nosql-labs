@@ -79,16 +79,16 @@ Retrieving a single partition is very fast. Retrieving multiple partitions will 
 
 ## C* rdbms differences
 ```markdown
-|   | C*  |    |   |   |
+|   | C*  | RDBMS   |More info   |   |
 |---|---|---|---|---|
-|   |   |   |   |   |
+|Insert   |Upsert   |Insert   |   |   |
 |   |   |   |   |   |
 |   |   |   |   |   |
 ``` 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MTUyMzQ2Niw4MTExNjY0NzEsLTU3Nz
+eyJoaXN0b3J5IjpbLTY2NTU5NzQ2Miw4MTExNjY0NzEsLTU3Nz
 g5NDE3NSwtMTEzNjI4MTExMCwtODQ0MTI0MjcxLDIxNTE5NDM2
 MSw1ODIxMTMxNDIsLTU0Nzg5MTc0NSwxOTgyOTU4Mjk3LDgyNj
 A0NDE0NiwtMTI4Mjk1OTc3NCwtNDk2NjczNzA1LC01NDc3NTQw
