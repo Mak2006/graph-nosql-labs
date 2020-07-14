@@ -107,8 +107,8 @@ What is the data required for each use case.
 ```markdown
 |                     | Access required   | inputs required                                 | output required |   |
 |---------------------|-------------------|-------------------------------------------------|-----------------|---|
-| SU1 -LOGIN          | READ ONLY, SELECT | USERNAME PASSWORD                               | USER ID         |   |
-| SU2 - User creation | INSERT            | USER NAME, PASSWORD, FIRSTNM, LAST NAMEM, EMAIL | USER ID         |   |
+| SU1 -LOGIN          | READ ONLY, SELECT | USERID PASSWORD                               | none         |   |
+| SU2 - User creation | INSERT            | USERID, PASSWORD, FIRSTNM, LAST NAMEM, EMAIL | USER ID         |   |
 |                     |                   |                                                 |                 |   |
 ```
 
@@ -127,11 +127,11 @@ Table definition for UC's
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg5NDM2NzAxLDU4NzM1MTA5MCwtMTk5NT
-A4ODczOSwtNjY1NTk3NDYyLDgxMTE2NjQ3MSwtNTc3ODk0MTc1
-LC0xMTM2MjgxMTEwLC04NDQxMjQyNzEsMjE1MTk0MzYxLDU4Mj
-ExMzE0MiwtNTQ3ODkxNzQ1LDE5ODI5NTgyOTcsODI2MDQ0MTQ2
-LC0xMjgyOTU5Nzc0LC00OTY2NzM3MDUsLTU0Nzc1NDAyOCwtMT
-U2OTQ4NDk4NSwtNzMwNDc3Mzc4LDE1MzUyMTI3NDksNjE3ODk0
-Njk2XX0=
+eyJoaXN0b3J5IjpbLTE0Mjc2MTU3Nyw2ODk0MzY3MDEsNTg3Mz
+UxMDkwLC0xOTk1MDg4NzM5LC02NjU1OTc0NjIsODExMTY2NDcx
+LC01Nzc4OTQxNzUsLTExMzYyODExMTAsLTg0NDEyNDI3MSwyMT
+UxOTQzNjEsNTgyMTEzMTQyLC01NDc4OTE3NDUsMTk4Mjk1ODI5
+Nyw4MjYwNDQxNDYsLTEyODI5NTk3NzQsLTQ5NjY3MzcwNSwtNT
+Q3NzU0MDI4LC0xNTY5NDg0OTg1LC03MzA0NzczNzgsMTUzNTIx
+Mjc0OV19
 -->
