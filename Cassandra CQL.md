@@ -79,8 +79,9 @@ CREATE TABLE killrvideo.video_recommendations (
 ) WITH CLUSTERING ORDER BY (added_date DESC, videoid ASC)
 
 ```
-partition key is userid, clustering colums are added data and videoid and 
-added_date DESC, videoid ASC  - or
+**Partition key** is userid 
+**Clustering colums** are added data and videoid and 
+**Ordering colums -** added_date DESC, videoid ASC  - ordering columns
 
 ### Insert commands
 ```
@@ -89,7 +90,7 @@ INSERT INTO killrvideo.users (userid, firstname, lastname, email, created_date)+
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0ODA3NTU0NSwtMzQwODMzNzE5LDQ5OD
-M5MzExMiwtNzA3MTg4NDAwLDIwNjgyNjYzODUsLTY1NDgyMDQ5
-OSwxNTAzNzk0NTg2LDM5MzcxMjAwMF19
+eyJoaXN0b3J5IjpbLTIwMzY3NDUwNDEsLTM0MDgzMzcxOSw0OT
+gzOTMxMTIsLTcwNzE4ODQwMCwyMDY4MjY2Mzg1LC02NTQ4MjA0
+OTksMTUwMzc5NDU4NiwzOTM3MTIwMDBdfQ==
 -->
