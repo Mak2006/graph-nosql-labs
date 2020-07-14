@@ -102,7 +102,14 @@ We focus on the secondary use cases first. SU4 is dependent on SU1 or SU2.
 SU1 is most common use case. 
 
 What is the data required for each use case. 
-SU1 - LOGIN - USER NAME , PASSWORD , retrieve. 
+```markdown
+|                     | Access required   | inputs required                                 | output required |   |
+|---------------------|-------------------|-------------------------------------------------|-----------------|---|
+| SU1 -LOGIN          | READ ONLY, SELECT | USERNAME PASSWORD                               | USER ID         |   |
+| SU2 - User creation | INSERT            | USER NAME, PASSWORD, FIRSTNM, LAST NAMEM, EMAIL | USER ID         |   |
+|                     |                   |                                                 |                 |   |
+```
+
 
  
 
@@ -111,16 +118,17 @@ SU1 - LOGIN - USER NAME , PASSWORD , retrieve.
 |   | C*  | RDBMS   |More info   |   |
 |---|---|---|---|---|
 |Insert   |Upsert   |Insert   |   |   |
-|   |   |   |   |   |
+|TABLE FOR EACH QUERY   | YES   | NO SO FINE  | c* WE ARE OK with denormalized dat  |   |
 |   |   |   |   |   |
 ``` 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTUwODg3MzksLTY2NTU5NzQ2Miw4MT
-ExNjY0NzEsLTU3Nzg5NDE3NSwtMTEzNjI4MTExMCwtODQ0MTI0
-MjcxLDIxNTE5NDM2MSw1ODIxMTMxNDIsLTU0Nzg5MTc0NSwxOT
-gyOTU4Mjk3LDgyNjA0NDE0NiwtMTI4Mjk1OTc3NCwtNDk2Njcz
-NzA1LC01NDc3NTQwMjgsLTE1Njk0ODQ5ODUsLTczMDQ3NzM3OC
-wxNTM1MjEyNzQ5LDYxNzg5NDY5NiwtMTY0MzA1OTQ1MV19
+eyJoaXN0b3J5IjpbLTE1MTQyNzU0OTMsLTE5OTUwODg3MzksLT
+Y2NTU5NzQ2Miw4MTExNjY0NzEsLTU3Nzg5NDE3NSwtMTEzNjI4
+MTExMCwtODQ0MTI0MjcxLDIxNTE5NDM2MSw1ODIxMTMxNDIsLT
+U0Nzg5MTc0NSwxOTgyOTU4Mjk3LDgyNjA0NDE0NiwtMTI4Mjk1
+OTc3NCwtNDk2NjczNzA1LC01NDc3NTQwMjgsLTE1Njk0ODQ5OD
+UsLTczMDQ3NzM3OCwxNTM1MjEyNzQ5LDYxNzg5NDY5NiwtMTY0
+MzA1OTQ1MV19
 -->
