@@ -71,8 +71,9 @@ Retrieving a single partition is very fast. Retrieving multiple partitions will 
 
 ## Cassandra data modelling 
 
-1. Normal RDBMS modellign of data does not work
-2. some heuristics are 
+1. Normal RDBMS modellign of data does not work in entirety and requires tweaking
+	2.  Identify the entities
+2. Some heuristics are 
 	1. Enumerate all use-cases and their interdependencies. 
 		1. What are the user cases and what data is required for the use case.
 		2. Does the use case require other prior uses cases?
@@ -143,11 +144,11 @@ What is the data required for each use case.
 -   Incrementing or decrementing a counter is not always guaranteed to work - under high traffic situations, it is possible for one of these operations to get dropped
 3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyOTAwNTQ5MywtMTkxMjUxOTkwOCwyOT
-Q4MzYxNTEsLTIxMTk2MDEwMDgsMTQ1NDc4NjU4LDE4NTI1ODQy
-NDAsLTE0Mjc2MTU3Nyw2ODk0MzY3MDEsNTg3MzUxMDkwLC0xOT
-k1MDg4NzM5LC02NjU1OTc0NjIsODExMTY2NDcxLC01Nzc4OTQx
-NzUsLTExMzYyODExMTAsLTg0NDEyNDI3MSwyMTUxOTQzNjEsNT
-gyMTEzMTQyLC01NDc4OTE3NDUsMTk4Mjk1ODI5Nyw4MjYwNDQx
-NDZdfQ==
+eyJoaXN0b3J5IjpbLTE1ODczOTg3NTksMTQyOTAwNTQ5MywtMT
+kxMjUxOTkwOCwyOTQ4MzYxNTEsLTIxMTk2MDEwMDgsMTQ1NDc4
+NjU4LDE4NTI1ODQyNDAsLTE0Mjc2MTU3Nyw2ODk0MzY3MDEsNT
+g3MzUxMDkwLC0xOTk1MDg4NzM5LC02NjU1OTc0NjIsODExMTY2
+NDcxLC01Nzc4OTQxNzUsLTExMzYyODExMTAsLTg0NDEyNDI3MS
+wyMTUxOTQzNjEsNTgyMTEzMTQyLC01NDc4OTE3NDUsMTk4Mjk1
+ODI5N119
 -->
