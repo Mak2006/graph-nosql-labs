@@ -78,6 +78,11 @@ Retrieving a single partition is very fast. Retrieving multiple partitions will 
 	2. Use the use cases to identify all queries the app will perform
 	3. Use the queries to drive the table definitions
 3. 
+### Data modelling example 
+For killrvideo what are the use cases
+1. Main use cases 
+	2. MU1 -  Login use cases
+2. 
 
 ## C* rdbms differences
 ```markdown
@@ -90,7 +95,7 @@ Retrieving a single partition is very fast. Retrieving multiple partitions will 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njg1OTYzODcsLTY2NTU5NzQ2Miw4MT
+eyJoaXN0b3J5IjpbLTE0MzcyODgxNzUsLTY2NTU5NzQ2Miw4MT
 ExNjY0NzEsLTU3Nzg5NDE3NSwtMTEzNjI4MTExMCwtODQ0MTI0
 MjcxLDIxNTE5NDM2MSw1ODIxMTMxNDIsLTU0Nzg5MTc0NSwxOT
 gyOTU4Mjk3LDgyNjA0NDE0NiwtMTI4Mjk1OTc3NCwtNDk2Njcz
