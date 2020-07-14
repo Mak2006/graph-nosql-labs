@@ -20,7 +20,7 @@ Retrieving a single partition is very fast. Retrieving multiple partitions will 
  - **Partitioner** - The one that decides which partition the data goes in. The default program is the **Murmur3Partitioner**, other is **RandomPartitioner**
  - **Token** - One hash of a row, calculated by the partitioner
  - **Token range** - The range of possible tokens possible. This is subset of partition range.
- - **Clustering columns** - this defines the storage order within partitions
+ - **Clustering columns** - this defines the storage order within partitions. Since Cassandra orders the rows within a partition based on clustering columns, you can perform "greater than" or "less than" operations on clustering columns after you specify the partition key
 10.**Sparse tables** - Tables where some cells may not have data.
 10.**Ordering columns** -  
  - **SSTable**
@@ -66,7 +66,7 @@ Retrieving a single partition is very fast. Retrieving multiple partitions will 
 
 ## Cassandra Algorithm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MDM1OTYzMywtMTEzNjI4MTExMCwtOD
+eyJoaXN0b3J5IjpbLTU3Nzg5NDE3NSwtMTEzNjI4MTExMCwtOD
 Q0MTI0MjcxLDIxNTE5NDM2MSw1ODIxMTMxNDIsLTU0Nzg5MTc0
 NSwxOTgyOTU4Mjk3LDgyNjA0NDE0NiwtMTI4Mjk1OTc3NCwtND
 k2NjczNzA1LC01NDc3NTQwMjgsLTE1Njk0ODQ5ODUsLTczMDQ3
