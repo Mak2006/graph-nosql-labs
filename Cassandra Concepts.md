@@ -99,7 +99,7 @@ For killrvideo what are the use cases
 	5. SU2 - User creation
 	6. SU3 - Friend list  
 
-What are the dependencies?
+**What are the dependencies?**
 We focus on the secondary use cases first. SU4 is dependent on SU1 or SU2.
 SU1 is most common use case. 
 
@@ -127,11 +127,11 @@ Table definition for UC's
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjc2MTU3Nyw2ODk0MzY3MDEsNTg3Mz
-UxMDkwLC0xOTk1MDg4NzM5LC02NjU1OTc0NjIsODExMTY2NDcx
-LC01Nzc4OTQxNzUsLTExMzYyODExMTAsLTg0NDEyNDI3MSwyMT
-UxOTQzNjEsNTgyMTEzMTQyLC01NDc4OTE3NDUsMTk4Mjk1ODI5
-Nyw4MjYwNDQxNDYsLTEyODI5NTk3NzQsLTQ5NjY3MzcwNSwtNT
-Q3NzU0MDI4LC0xNTY5NDg0OTg1LC03MzA0NzczNzgsMTUzNTIx
-Mjc0OV19
+eyJoaXN0b3J5IjpbLTk1MDY1Mzg2NSwtMTQyNzYxNTc3LDY4OT
+QzNjcwMSw1ODczNTEwOTAsLTE5OTUwODg3MzksLTY2NTU5NzQ2
+Miw4MTExNjY0NzEsLTU3Nzg5NDE3NSwtMTEzNjI4MTExMCwtOD
+Q0MTI0MjcxLDIxNTE5NDM2MSw1ODIxMTMxNDIsLTU0Nzg5MTc0
+NSwxOTgyOTU4Mjk3LDgyNjA0NDE0NiwtMTI4Mjk1OTc3NCwtND
+k2NjczNzA1LC01NDc3NTQwMjgsLTE1Njk0ODQ5ODUsLTczMDQ3
+NzM3OF19
 -->
