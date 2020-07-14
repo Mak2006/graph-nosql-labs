@@ -62,15 +62,15 @@ Retrieving a single partition is very fast. Retrieving multiple partitions will 
  - **Quorum**
  - **Rolling restart**
  - **SEDA**
- - **C* Insert**
+ - **Upsert - C* Inserts** - Insert inserts teh data, if the data is there, it updates. What is not evident is it does not read the data prior to insert. This is an **Upsert**
  - 
 
 ## Cassandra Algorithm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MzI2Njg5NCwtNTc3ODk0MTc1LC0xMT
-M2MjgxMTEwLC04NDQxMjQyNzEsMjE1MTk0MzYxLDU4MjExMzE0
-MiwtNTQ3ODkxNzQ1LDE5ODI5NTgyOTcsODI2MDQ0MTQ2LC0xMj
-gyOTU5Nzc0LC00OTY2NzM3MDUsLTU0Nzc1NDAyOCwtMTU2OTQ4
-NDk4NSwtNzMwNDc3Mzc4LDE1MzUyMTI3NDksNjE3ODk0Njk2LC
-0xNjQzMDU5NDUxXX0=
+eyJoaXN0b3J5IjpbODExMTY2NDcxLC01Nzc4OTQxNzUsLTExMz
+YyODExMTAsLTg0NDEyNDI3MSwyMTUxOTQzNjEsNTgyMTEzMTQy
+LC01NDc4OTE3NDUsMTk4Mjk1ODI5Nyw4MjYwNDQxNDYsLTEyOD
+I5NTk3NzQsLTQ5NjY3MzcwNSwtNTQ3NzU0MDI4LC0xNTY5NDg0
+OTg1LC03MzA0NzczNzgsMTUzNTIxMjc0OSw2MTc4OTQ2OTYsLT
+E2NDMwNTk0NTFdfQ==
 -->
