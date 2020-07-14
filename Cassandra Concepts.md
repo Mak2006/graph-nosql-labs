@@ -83,7 +83,7 @@ Retrieving a single partition is very fast. Retrieving multiple partitions will 
 	3. Use the queries to drive the table definitions
 		1. We are likely to have one table for each of the types of query we have. 
 		2. 
-3.  Note we are  using de normalization, so when we upsert we are upserting into multiple tables. to maintain the relations. For examples users and user_creds are two tabls. Both have userid as
+3.  Note we are  using de normalization, so when we upsert we are upserting into multiple tables. to maintain the relations. For examples users and user_creds are two tabls. Both have userid as the partition key. When a user is created we create a user_cred row as well. 
 4. 
 ### Data modelling example 
 For killrvideo what are the use cases
@@ -140,11 +140,11 @@ What is the data required for each use case.
 1. SET - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1Mzg1NjAzLDI5NDgzNjE1MSwtMjExOT
-YwMTAwOCwxNDU0Nzg2NTgsMTg1MjU4NDI0MCwtMTQyNzYxNTc3
-LDY4OTQzNjcwMSw1ODczNTEwOTAsLTE5OTUwODg3MzksLTY2NT
-U5NzQ2Miw4MTExNjY0NzEsLTU3Nzg5NDE3NSwtMTEzNjI4MTEx
-MCwtODQ0MTI0MjcxLDIxNTE5NDM2MSw1ODIxMTMxNDIsLTU0Nz
-g5MTc0NSwxOTgyOTU4Mjk3LDgyNjA0NDE0NiwtMTI4Mjk1OTc3
-NF19
+eyJoaXN0b3J5IjpbLTE5MTI1MTk5MDgsMjk0ODM2MTUxLC0yMT
+E5NjAxMDA4LDE0NTQ3ODY1OCwxODUyNTg0MjQwLC0xNDI3NjE1
+NzcsNjg5NDM2NzAxLDU4NzM1MTA5MCwtMTk5NTA4ODczOSwtNj
+Y1NTk3NDYyLDgxMTE2NjQ3MSwtNTc3ODk0MTc1LC0xMTM2Mjgx
+MTEwLC04NDQxMjQyNzEsMjE1MTk0MzYxLDU4MjExMzE0MiwtNT
+Q3ODkxNzQ1LDE5ODI5NTgyOTcsODI2MDQ0MTQ2LC0xMjgyOTU5
+Nzc0XX0=
 -->
