@@ -17,52 +17,55 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 6. **Partitioner** - The one that decides which partition the data goes in. The default program is the **Murmur3Partitioner**, other is **RandomPartitioner**
 7. **Token** - One hash of a row, calculated by the partitioner
 8. **Token range** - The range of possible tokens possible. This is subset of partition range.
-9. **SSTable**
-10. **Memtable** 
-11. **Snitch**
-12. **Seeds**, **Seed node**
-13. **Data types** Set, Map 	
-14. **Hashing**
-15. **Consistency Level**
-16. **Replication Level**
-17. **Replication strategy**
-18. **Sharding Shard**
-19. **Keyspace**
-20.  **Key cache**
-21. **Ring** the sequence of nodes
-22.  **Sharding**
-23. **Gossip** - this is the protocol used by Nodes to talk to each other.
-24. **Anti entropy**
-25. **CAP theorem** Brewers theorem **Eventual consistency**
-26. **Paxos algorithm**
-27. **Hotspot**
-28. **Acid**
-29. **Base**
-30. **Bloom Filter**
-31. **C**
-32. **C cluster**
-33. **CQL**
-34. **cqlsh**
-35. **C* yaml**
-36. **Token**
-37. **Ring**
-38. **Data center** **Rack**
-39. **Primary Key**
-40. **Clustering column**
-41. **Commit Log**
-42. **Compaction**
-43. **Node repair**
-44. **Nodetool**
-45. **Quorum**
-46. **Rolling restart**
-47. **SEDA**
-48. 
+9. **Clustering columns** - this defines the storage order within partitions
+10.**Ordering columns** -  
+11. **SSTable**
+12. **Memtable** 
+13. **Snitch**
+14. **Seeds**, **Seed node**
+15. **Data types** Set, Map 	
+16. **Hashing**
+17. **Consistency Level**
+18. **Replication Level**
+19. **Replication strategy**
+20. **Sharding Shard**
+21. **Keyspace**
+22.  **Key cache**
+23. **Ring** the sequence of nodes
+24.  **Sharding**
+25. **Gossip** - this is the protocol used by Nodes to talk to each other.
+26. **Anti entropy**
+27. **CAP theorem** Brewers theorem **Eventual consistency**
+28. **Paxos algorithm**
+29. **Hotspot**
+30. **Acid**
+31. **Base**
+32. **Bloom Filter**
+33. **C**
+34. **C cluster**
+35. **CQL**
+36. **cqlsh**
+37. **C* yaml**
+38. **Token**
+39. **Ring**
+40. **Data center** **Rack**
+41. **Primary Key**
+42. **Clustering column**
+43. **Commit Log**
+44. **Compaction**
+45. **Node repair**
+46. **Nodetool**
+47. **Quorum**
+48. **Rolling restart**
+49. **SEDA**
+50. 
 
 ## Cassandra Algorithm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzYyODExMTAsLTg0NDEyNDI3MSwyMT
-UxOTQzNjEsNTgyMTEzMTQyLC01NDc4OTE3NDUsMTk4Mjk1ODI5
-Nyw4MjYwNDQxNDYsLTEyODI5NTk3NzQsLTQ5NjY3MzcwNSwtNT
-Q3NzU0MDI4LC0xNTY5NDg0OTg1LC03MzA0NzczNzgsMTUzNTIx
-Mjc0OSw2MTc4OTQ2OTYsLTE2NDMwNTk0NTFdfQ==
+eyJoaXN0b3J5IjpbLTEwNTA3NDk4MiwtMTEzNjI4MTExMCwtOD
+Q0MTI0MjcxLDIxNTE5NDM2MSw1ODIxMTMxNDIsLTU0Nzg5MTc0
+NSwxOTgyOTU4Mjk3LDgyNjA0NDE0NiwtMTI4Mjk1OTc3NCwtND
+k2NjczNzA1LC01NDc3NTQwMjgsLTE1Njk0ODQ5ODUsLTczMDQ3
+NzM3OCwxNTM1MjEyNzQ5LDYxNzg5NDY5NiwtMTY0MzA1OTQ1MV
+19
 -->
