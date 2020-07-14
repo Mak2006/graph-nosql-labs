@@ -90,9 +90,10 @@ INSERT INTO killrvideo.users (userid, firstname, lastname, email, created_date)+
 ```
 
 ### Select statements
+`SELECT * FROM killrvideo.video_recommendations;` // Note - select * is not a good practice and this 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI2NzQwMzI4LC0yMDM2NzQ1MDQxLC0zND
-A4MzM3MTksNDk4MzkzMTEyLC03MDcxODg0MDAsMjA2ODI2NjM4
-NSwtNjU0ODIwNDk5LDE1MDM3OTQ1ODYsMzkzNzEyMDAwXX0=
+eyJoaXN0b3J5IjpbMTQ5NDU0Mjc4MCwtMjAzNjc0NTA0MSwtMz
+QwODMzNzE5LDQ5ODM5MzExMiwtNzA3MTg4NDAwLDIwNjgyNjYz
+ODUsLTY1NDgyMDQ5OSwxNTAzNzk0NTg2LDM5MzcxMjAwMF19
 -->
