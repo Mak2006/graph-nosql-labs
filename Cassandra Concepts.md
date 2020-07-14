@@ -13,7 +13,7 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 	1. Distribute the data accross different nodes, each node has a part of the data. These data parts are called partitions. Partitions are based on some key using which we can divide the data. To maintain failover, the nodes also have additional responsibility of having other partitions as well.  
  - **Partition Key** - In C*, a partition key is required to be defined. It is consists of at least on column. So when a row comes in, the **Partitoner**, uses a hash function on the value of the column and creates a **Token**. The all possible values of these token is the **token range**.  Each of the nodes now are designated to hold data for a subset of the total token range. The Partitioners pushes the data to that node designated for that token range.  Partition key is at least a single column. It can be multiple columns as well. Casssandra hashes the full partition key to retrieve a partition. This has implied consequences:
 
-Retrieving a single partition is very fast. Retrieving multiple    partitions will be slower Partition keys have no inherent order, so  you cannot perform "greater than" or "less than" types of operations    on partition keys
+Retrieving a single partition is very fast. Retrieving multiple partitions will be slower Partition keys have no inherent order, so  you cannot perform "greater than" or "less than" types of operations    on partition keys
 
  - **Partition index** - An on-disk data structure for SSTables which lists partition keys, their file offset position for each keys' corresponding partition in the SSTable.
  - **Partition** - A section of the data.  Part of a table
@@ -66,7 +66,7 @@ Retrieving a single partition is very fast. Retrieving multiple    partitions wi
 
 ## Cassandra Algorithm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODM2Mzc1MSwtMTEzNjI4MTExMCwtOD
+eyJoaXN0b3J5IjpbMTk0MDM1OTYzMywtMTEzNjI4MTExMCwtOD
 Q0MTI0MjcxLDIxNTE5NDM2MSw1ODIxMTMxNDIsLTU0Nzg5MTc0
 NSwxOTgyOTU4Mjk3LDgyNjA0NDE0NiwtMTI4Mjk1OTc3NCwtND
 k2NjczNzA1LC01NDc3NTQwMjgsLTE1Njk0ODQ5ODUsLTczMDQ3
