@@ -76,6 +76,9 @@ Retrieving a single partition is very fast. Retrieving multiple partitions will 
 		1. What are the user cases and what data is required for the use case.
 		2. Does the use case require other prior uses cases?
 	2. Use the use cases to identify all queries the app will perform
+		1. For each use-case, determine the database access you will need to support the use-case
+		2. For each access, identify the inputs and the outputs
+		3. For queries, the inputs become keys and the outputs become data columns 
 	3. Use the queries to drive the table definitions
 3. 
 ### Data modelling example 
@@ -113,7 +116,7 @@ SU1 - LOGIN - USER NAME , PASSWORD , retrieve.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NzQ2MjIxNCwtNjY1NTk3NDYyLDgxMT
+eyJoaXN0b3J5IjpbMTAxMDA2MDEwNywtNjY1NTk3NDYyLDgxMT
 E2NjQ3MSwtNTc3ODk0MTc1LC0xMTM2MjgxMTEwLC04NDQxMjQy
 NzEsMjE1MTk0MzYxLDU4MjExMzE0MiwtNTQ3ODkxNzQ1LDE5OD
 I5NTgyOTcsODI2MDQ0MTQ2LC0xMjgyOTU5Nzc0LC00OTY2NzM3
