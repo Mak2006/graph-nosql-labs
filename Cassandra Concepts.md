@@ -18,7 +18,7 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 7. **Token** - One hash of a row, calculated by the partitioner
 8. **Token range** - The range of possible tokens possible. This is subset of partition range.
 9. **Clustering columns** - this defines the storage order within partitions
-10.**Sparse tables** - So 
+10.**Sparse tables** - Tables where some cells may not have data.
 10.**Ordering columns** -  
 11. **SSTable**
 12. **Memtable** 
@@ -63,10 +63,10 @@ Cassandra is a wide column distributed database, its originated from Facebook an
 
 ## Cassandra Algorithm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDExMDk4MzcsLTExMzYyODExMTAsLT
-g0NDEyNDI3MSwyMTUxOTQzNjEsNTgyMTEzMTQyLC01NDc4OTE3
-NDUsMTk4Mjk1ODI5Nyw4MjYwNDQxNDYsLTEyODI5NTk3NzQsLT
-Q5NjY3MzcwNSwtNTQ3NzU0MDI4LC0xNTY5NDg0OTg1LC03MzA0
-NzczNzgsMTUzNTIxMjc0OSw2MTc4OTQ2OTYsLTE2NDMwNTk0NT
-FdfQ==
+eyJoaXN0b3J5IjpbMTQxODUxMDAwNiwtMTEzNjI4MTExMCwtOD
+Q0MTI0MjcxLDIxNTE5NDM2MSw1ODIxMTMxNDIsLTU0Nzg5MTc0
+NSwxOTgyOTU4Mjk3LDgyNjA0NDE0NiwtMTI4Mjk1OTc3NCwtND
+k2NjczNzA1LC01NDc3NTQwMjgsLTE1Njk0ODQ5ODUsLTczMDQ3
+NzM3OCwxNTM1MjEyNzQ5LDYxNzg5NDY5NiwtMTY0MzA1OTQ1MV
+19
 -->
