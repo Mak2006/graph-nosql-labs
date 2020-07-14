@@ -105,10 +105,17 @@ INSERT INTO killrvideo.videos (videoid, tags)
 `SELECT * FROM killrvideo.video_recommendations where userid = 11111111-1111-1111-1111-111111111111;`
 
 [a sample](https://i.imgur.com/3eCVr1Q.png)
+
+### Update command
+```
+UPDATE killrvideo.videos SET tags = { 'High-brow', 'Intellectual', '22Refined' } WHERE videoid = 12121212-1212-1212-1212-121212121212;
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg1OTgzMzU3LC0zODAyNDUwNDcsLTY4Nz
-k2MDM5NSwyMDEwMDcwODczLC0yMTMzMjYwNzEyLDEyOTU2NDA3
-MTIsLTIwMzY3NDUwNDEsLTM0MDgzMzcxOSw0OTgzOTMxMTIsLT
-cwNzE4ODQwMCwyMDY4MjY2Mzg1LC02NTQ4MjA0OTksMTUwMzc5
-NDU4NiwzOTM3MTIwMDBdfQ==
+eyJoaXN0b3J5IjpbLTE5MDI3NTg3NSw3ODU5ODMzNTcsLTM4MD
+I0NTA0NywtNjg3OTYwMzk1LDIwMTAwNzA4NzMsLTIxMzMyNjA3
+MTIsMTI5NTY0MDcxMiwtMjAzNjc0NTA0MSwtMzQwODMzNzE5LD
+Q5ODM5MzExMiwtNzA3MTg4NDAwLDIwNjgyNjYzODUsLTY1NDgy
+MDQ5OSwxNTAzNzk0NTg2LDM5MzcxMjAwMF19
 -->
