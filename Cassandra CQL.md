@@ -95,6 +95,9 @@ if you want to insert with a specific key **(insert will now update)**
 `INSERT INTO killrvideo.users (userid, firstname, lastname, email, created_date)
   VALUES(11111111-1111-1111-1111-111111111111, 'Jeff', 'Carpenter', 'jc@datastax.com', toTimestamp(now()));`
   
+// Inserting a set. tags is a set
+INSERT INTO killrvideo.videos (videoid, tags)
+  VALUES(12121212-1212-1212-1212-121212121212 , {'Favorite', 'Fast-paced', 'Funny'});
 
 ### Select statements
 `SELECT * FROM killrvideo.video_recommendations;` // Note - select is not a good practice and select must have the partition key in the where, else C* has to do a FTS.
@@ -102,8 +105,9 @@ if you want to insert with a specific key **(insert will now update)**
 `SELECT * FROM killrvideo.video_recommendations where userid = 11111111-1111-1111-1111-111111111111;`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4Nzk2MDM5NSwyMDEwMDcwODczLC0yMT
-MzMjYwNzEyLDEyOTU2NDA3MTIsLTIwMzY3NDUwNDEsLTM0MDgz
-MzcxOSw0OTgzOTMxMTIsLTcwNzE4ODQwMCwyMDY4MjY2Mzg1LC
-02NTQ4MjA0OTksMTUwMzc5NDU4NiwzOTM3MTIwMDBdfQ==
+eyJoaXN0b3J5IjpbLTM4MDI0NTA0NywtNjg3OTYwMzk1LDIwMT
+AwNzA4NzMsLTIxMzMyNjA3MTIsMTI5NTY0MDcxMiwtMjAzNjc0
+NTA0MSwtMzQwODMzNzE5LDQ5ODM5MzExMiwtNzA3MTg4NDAwLD
+IwNjgyNjYzODUsLTY1NDgyMDQ5OSwxNTAzNzk0NTg2LDM5Mzcx
+MjAwMF19
 -->
