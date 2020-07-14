@@ -4,8 +4,8 @@
 // Describe the schema of the keyspace and tables 
 // format DESCRIBE RES_TYPE NAME
 `DESCRIBE keyspace killrvideo;`
-`Describe table killrvideo.video_recommendations;
-`Describe keyspace keyspaceName` 
+`Describe table killrvideo.video_recommendations;`
+
 
 example - `DESCRIBE killrvideo video_re	
 
@@ -73,7 +73,7 @@ INSERT INTO killrvideo.users (userid, firstname, lastname, email, created_date)+
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTg1MTkwNDksNDk4MzkzMTEyLC03MD
-cxODg0MDAsMjA2ODI2NjM4NSwtNjU0ODIwNDk5LDE1MDM3OTQ1
-ODYsMzkzNzEyMDAwXX0=
+eyJoaXN0b3J5IjpbLTM0MDgzMzcxOSw0OTgzOTMxMTIsLTcwNz
+E4ODQwMCwyMDY4MjY2Mzg1LC02NTQ4MjA0OTksMTUwMzc5NDU4
+NiwzOTM3MTIwMDBdfQ==
 -->
