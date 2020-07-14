@@ -76,7 +76,7 @@ Retrieving a single partition is very fast. Retrieving multiple partitions will 
 		1. What are the user cases and what data is required for the use case.
 		2. Does the use case require other prior uses cases?
 	2. Use the use cases to identify all queries the app will perform
-		1. For each use-case, determine the database access you will need to support the use-case
+		1. Determine type of query select / insert / update
 		2. For each access, identify the inputs and the outputs
 		3. For queries, the inputs become keys and the outputs become data columns 
 	3. Use the queries to drive the table definitions
@@ -126,11 +126,11 @@ What is the data required for each use case.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg3MzUxMDkwLC0xOTk1MDg4NzM5LC02Nj
-U1OTc0NjIsODExMTY2NDcxLC01Nzc4OTQxNzUsLTExMzYyODEx
-MTAsLTg0NDEyNDI3MSwyMTUxOTQzNjEsNTgyMTEzMTQyLC01ND
-c4OTE3NDUsMTk4Mjk1ODI5Nyw4MjYwNDQxNDYsLTEyODI5NTk3
-NzQsLTQ5NjY3MzcwNSwtNTQ3NzU0MDI4LC0xNTY5NDg0OTg1LC
-03MzA0NzczNzgsMTUzNTIxMjc0OSw2MTc4OTQ2OTYsLTE2NDMw
-NTk0NTFdfQ==
+eyJoaXN0b3J5IjpbNTI3NDQ4Njk1LDU4NzM1MTA5MCwtMTk5NT
+A4ODczOSwtNjY1NTk3NDYyLDgxMTE2NjQ3MSwtNTc3ODk0MTc1
+LC0xMTM2MjgxMTEwLC04NDQxMjQyNzEsMjE1MTk0MzYxLDU4Mj
+ExMzE0MiwtNTQ3ODkxNzQ1LDE5ODI5NTgyOTcsODI2MDQ0MTQ2
+LC0xMjgyOTU5Nzc0LC00OTY2NzM3MDUsLTU0Nzc1NDAyOCwtMT
+U2OTQ4NDk4NSwtNzMwNDc3Mzc4LDE1MzUyMTI3NDksNjE3ODk0
+Njk2XX0=
 -->
