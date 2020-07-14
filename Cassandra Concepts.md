@@ -125,7 +125,7 @@ What is the data required for each use case.
 **More**
 [https://24b4dt1v60e526bo2p349l4c-wpengine.netdna-ssl.com/wp-content/uploads/2015/11/Cassandra-NoSQL-Data-Model-Design-v1.0.pdf](https://24b4dt1v60e526bo2p349l4c-wpengine.netdna-ssl.com/wp-content/uploads/2015/11/Cassandra-NoSQL-Data-Model-Design-v1.0.pdf)  
  
-
+ 
 ## C* rdbms differences
 ```markdown
 |   | C*  | RDBMS   |More info   |   |
@@ -137,11 +137,11 @@ What is the data required for each use case.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NDc4NjU4LDE4NTI1ODQyNDAsLTE0Mj
-c2MTU3Nyw2ODk0MzY3MDEsNTg3MzUxMDkwLC0xOTk1MDg4NzM5
-LC02NjU1OTc0NjIsODExMTY2NDcxLC01Nzc4OTQxNzUsLTExMz
-YyODExMTAsLTg0NDEyNDI3MSwyMTUxOTQzNjEsNTgyMTEzMTQy
-LC01NDc4OTE3NDUsMTk4Mjk1ODI5Nyw4MjYwNDQxNDYsLTEyOD
-I5NTk3NzQsLTQ5NjY3MzcwNSwtNTQ3NzU0MDI4LC0xNTY5NDg0
-OTg1XX0=
+eyJoaXN0b3J5IjpbLTIxMTk2MDEwMDgsMTQ1NDc4NjU4LDE4NT
+I1ODQyNDAsLTE0Mjc2MTU3Nyw2ODk0MzY3MDEsNTg3MzUxMDkw
+LC0xOTk1MDg4NzM5LC02NjU1OTc0NjIsODExMTY2NDcxLC01Nz
+c4OTQxNzUsLTExMzYyODExMTAsLTg0NDEyNDI3MSwyMTUxOTQz
+NjEsNTgyMTEzMTQyLC01NDc4OTE3NDUsMTk4Mjk1ODI5Nyw4Mj
+YwNDQxNDYsLTEyODI5NTk3NzQsLTQ5NjY3MzcwNSwtNTQ3NzU0
+MDI4XX0=
 -->
