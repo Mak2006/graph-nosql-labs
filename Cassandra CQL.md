@@ -91,8 +91,8 @@ INSERT INTO killrvideo.users (userid, firstname, lastname, email, created_date)+
 
 if you want to insert with a specific key
 
-`INSERT INTO killrvideo.users (userid, firstname, lastname, email, created_date)+
-  VALUES(uuid(), 'Jeff', 'Carpenter', 'jc@datastax.com', toTimestamp(now()));`
+`INSERT INTO killrvideo.users (userid, firstname, lastname, email, created_date)
+  VALUES(11111111-1111-1111-1111-111111111111, 'Jeff', 'Carpenter', 'jc@datastax.com', toTimestamp(now()));`
   
 
 ### Select statements
@@ -101,8 +101,8 @@ if you want to insert with a specific key
 `SELECT * FROM killrvideo.video_recommendations where userid = 11111111-1111-1111-1111-111111111111;`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MzU2NDMwMywtMjEzMzI2MDcxMiwxMj
-k1NjQwNzEyLC0yMDM2NzQ1MDQxLC0zNDA4MzM3MTksNDk4Mzkz
-MTEyLC03MDcxODg0MDAsMjA2ODI2NjM4NSwtNjU0ODIwNDk5LD
-E1MDM3OTQ1ODYsMzkzNzEyMDAwXX0=
+eyJoaXN0b3J5IjpbNjkyOTU5MzgsLTIxMzMyNjA3MTIsMTI5NT
+Y0MDcxMiwtMjAzNjc0NTA0MSwtMzQwODMzNzE5LDQ5ODM5MzEx
+MiwtNzA3MTg4NDAwLDIwNjgyNjYzODUsLTY1NDgyMDQ5OSwxNT
+AzNzk0NTg2LDM5MzcxMjAwMF19
 -->
