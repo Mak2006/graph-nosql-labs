@@ -70,6 +70,8 @@ Retrieving a single partition is very fast. Retrieving multiple partitions will 
 ### Write
 
 ## Cassandra data modelling 
+[Overall process](https://i.imgur.com/M5VFrQ1.png)
+
 
 1. Normal RDBMS modellign of data does not work in entirety and requires tweaking
 	2.  Identify the entities
@@ -144,11 +146,11 @@ What is the data required for each use case.
 -   Incrementing or decrementing a counter is not always guaranteed to work - under high traffic situations, it is possible for one of these operations to get dropped
 3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODczOTg3NTksMTQyOTAwNTQ5MywtMT
-kxMjUxOTkwOCwyOTQ4MzYxNTEsLTIxMTk2MDEwMDgsMTQ1NDc4
-NjU4LDE4NTI1ODQyNDAsLTE0Mjc2MTU3Nyw2ODk0MzY3MDEsNT
-g3MzUxMDkwLC0xOTk1MDg4NzM5LC02NjU1OTc0NjIsODExMTY2
-NDcxLC01Nzc4OTQxNzUsLTExMzYyODExMTAsLTg0NDEyNDI3MS
-wyMTUxOTQzNjEsNTgyMTEzMTQyLC01NDc4OTE3NDUsMTk4Mjk1
-ODI5N119
+eyJoaXN0b3J5IjpbLTY2OTQwOTgxOSwxNDI5MDA1NDkzLC0xOT
+EyNTE5OTA4LDI5NDgzNjE1MSwtMjExOTYwMTAwOCwxNDU0Nzg2
+NTgsMTg1MjU4NDI0MCwtMTQyNzYxNTc3LDY4OTQzNjcwMSw1OD
+czNTEwOTAsLTE5OTUwODg3MzksLTY2NTU5NzQ2Miw4MTExNjY0
+NzEsLTU3Nzg5NDE3NSwtMTEzNjI4MTExMCwtODQ0MTI0MjcxLD
+IxNTE5NDM2MSw1ODIxMTMxNDIsLTU0Nzg5MTc0NSwxOTgyOTU4
+Mjk3XX0=
 -->
