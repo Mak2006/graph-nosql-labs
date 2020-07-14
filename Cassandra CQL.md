@@ -30,6 +30,7 @@ CREATE TABLE killrvideo.users (
     email text,
     created_date timestamp,
     tags set<text>,       # a set element example
+    views counter,
     PRIMARY KEY (userid)
 ) {optional WITH statement};
  
@@ -113,9 +114,10 @@ UPDATE killrvideo.videos SET tags = { 'High-brow', 'Intellectual', '22Refined' }
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDI3NTg3NSw3ODU5ODMzNTcsLTM4MD
-I0NTA0NywtNjg3OTYwMzk1LDIwMTAwNzA4NzMsLTIxMzMyNjA3
-MTIsMTI5NTY0MDcxMiwtMjAzNjc0NTA0MSwtMzQwODMzNzE5LD
-Q5ODM5MzExMiwtNzA3MTg4NDAwLDIwNjgyNjYzODUsLTY1NDgy
-MDQ5OSwxNTAzNzk0NTg2LDM5MzcxMjAwMF19
+eyJoaXN0b3J5IjpbLTE1NjAwNzUxMTksLTE5MDI3NTg3NSw3OD
+U5ODMzNTcsLTM4MDI0NTA0NywtNjg3OTYwMzk1LDIwMTAwNzA4
+NzMsLTIxMzMyNjA3MTIsMTI5NTY0MDcxMiwtMjAzNjc0NTA0MS
+wtMzQwODMzNzE5LDQ5ODM5MzExMiwtNzA3MTg4NDAwLDIwNjgy
+NjYzODUsLTY1NDgyMDQ5OSwxNTAzNzk0NTg2LDM5MzcxMjAwMF
+19
 -->
