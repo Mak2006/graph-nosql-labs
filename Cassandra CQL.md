@@ -92,8 +92,11 @@ INSERT INTO killrvideo.users (userid, firstname, lastname, email, created_date)+
 ### Select statements
 `SELECT * FROM killrvideo.video_recommendations;` // Note - select is not a good practice and select must have the partition key in the where, else C* has to do a FTS.
 
+`SELECT * FROM killrvideo.video_recommendations where userid = 11111111-1111-1111-1111-111111111111;`
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NTY0MDcxMiwtMjAzNjc0NTA0MSwtMz
-QwODMzNzE5LDQ5ODM5MzExMiwtNzA3MTg4NDAwLDIwNjgyNjYz
-ODUsLTY1NDgyMDQ5OSwxNTAzNzk0NTg2LDM5MzcxMjAwMF19
+eyJoaXN0b3J5IjpbLTIxMzMyNjA3MTIsMTI5NTY0MDcxMiwtMj
+AzNjc0NTA0MSwtMzQwODMzNzE5LDQ5ODM5MzExMiwtNzA3MTg4
+NDAwLDIwNjgyNjYzODUsLTY1NDgyMDQ5OSwxNTAzNzk0NTg2LD
+M5MzcxMjAwMF19
 -->
