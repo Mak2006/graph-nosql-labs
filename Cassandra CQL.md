@@ -7,9 +7,6 @@
 `Describe table killrvideo.video_recommendations;`
 
 
-example - `DESCRIBE killrvideo video_re	
-
-
 
 ### Create commands
 **Create keyspace**
@@ -64,7 +61,26 @@ read_repair_chance = 0.0
     AND cdc = false
     AND memtable_flush_period_in_ms = 0
     AND nodesync = { 'enabled' : 'true', 'incremental' : 'true' };
+
 ```
+
+Another example 
+
+```
+CREATE TABLE killrvideo.video_recommendations (
+    userid uuid,
+    added_date timestamp,
+    videoid uuid,
+    authorid uuid,
+    name text,
+    preview_image_location text,
+    rating float,
+    PRIMARY KEY (userid, added_date, videoid)
+) WITH CLUSTERING ORDER BY (added_date DESC, videoid ASC)
+
+```
+partition key is userid, clustering colums are added data and videoid and 
+added_date DESC, videoid ASC  - or
 
 ### Insert commands
 ```
@@ -73,7 +89,7 @@ INSERT INTO killrvideo.users (userid, firstname, lastname, email, created_date)+
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MDgzMzcxOSw0OTgzOTMxMTIsLTcwNz
-E4ODQwMCwyMDY4MjY2Mzg1LC02NTQ4MjA0OTksMTUwMzc5NDU4
-NiwzOTM3MTIwMDBdfQ==
+eyJoaXN0b3J5IjpbLTI0ODA3NTU0NSwtMzQwODMzNzE5LDQ5OD
+M5MzExMiwtNzA3MTg4NDAwLDIwNjgyNjYzODUsLTY1NDgyMDQ5
+OSwxNTAzNzk0NTg2LDM5MzcxMjAwMF19
 -->
