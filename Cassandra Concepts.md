@@ -80,6 +80,8 @@ Retrieving a single partition is very fast. Retrieving multiple partitions will 
 		2. For each access, identify the inputs and the outputs
 		3. For queries, the inputs become keys and the outputs become data columns 
 	3. Use the queries to drive the table definitions
+		1. We are likely to have one table for each of the types of query we have. 
+		2. 
 3. 
 ### Data modelling example 
 For killrvideo what are the use cases
@@ -118,17 +120,17 @@ What is the data required for each use case.
 |   | C*  | RDBMS   |More info   |   |
 |---|---|---|---|---|
 |Insert   |Upsert   |Insert   |   |   |
-|TABLE FOR EACH QUERY   | YES   | NO SO FINE  | c* WE ARE OK with denormalized dat  |   |
+|TABLE FOR EACH QUERY   | YES   | NO SO FINE  | c* WE ARE OK with denormalized data  |   |
 |   |   |   |   |   |
 ``` 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTQyNzU0OTMsLTE5OTUwODg3MzksLT
-Y2NTU5NzQ2Miw4MTExNjY0NzEsLTU3Nzg5NDE3NSwtMTEzNjI4
-MTExMCwtODQ0MTI0MjcxLDIxNTE5NDM2MSw1ODIxMTMxNDIsLT
-U0Nzg5MTc0NSwxOTgyOTU4Mjk3LDgyNjA0NDE0NiwtMTI4Mjk1
-OTc3NCwtNDk2NjczNzA1LC01NDc3NTQwMjgsLTE1Njk0ODQ5OD
-UsLTczMDQ3NzM3OCwxNTM1MjEyNzQ5LDYxNzg5NDY5NiwtMTY0
-MzA1OTQ1MV19
+eyJoaXN0b3J5IjpbNTg3MzUxMDkwLC0xOTk1MDg4NzM5LC02Nj
+U1OTc0NjIsODExMTY2NDcxLC01Nzc4OTQxNzUsLTExMzYyODEx
+MTAsLTg0NDEyNDI3MSwyMTUxOTQzNjEsNTgyMTEzMTQyLC01ND
+c4OTE3NDUsMTk4Mjk1ODI5Nyw4MjYwNDQxNDYsLTEyODI5NTk3
+NzQsLTQ5NjY3MzcwNSwtNTQ3NzU0MDI4LC0xNTY5NDg0OTg1LC
+03MzA0NzczNzgsMTUzNTIxMjc0OSw2MTc4OTQ2OTYsLTE2NDMw
+NTk0NTFdfQ==
 -->
