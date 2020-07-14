@@ -89,9 +89,13 @@ For killrvideo what are the use cases
 	7. MU6 - have favorites list etc. 
 	8. 
 2. Secondary use cases
-	3. SU1 - Login and account maintenance
-	4. SU2 - User creation
-	5. SU3 - friend list  
+	3. SU1 - Login
+	4. SU4 - Account maintenance
+	5. SU2 - User creation
+	6. SU3 - Friend list  
+
+What are the dependencies?
+We focus on the secondary use cases first. SU1 or SU4 is  
 
 ## C* rdbms differences
 ```markdown
@@ -104,10 +108,10 @@ For killrvideo what are the use cases
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NTAxNTk5LC02NjU1OTc0NjIsODExMT
-Y2NDcxLC01Nzc4OTQxNzUsLTExMzYyODExMTAsLTg0NDEyNDI3
-MSwyMTUxOTQzNjEsNTgyMTEzMTQyLC01NDc4OTE3NDUsMTk4Mj
-k1ODI5Nyw4MjYwNDQxNDYsLTEyODI5NTk3NzQsLTQ5NjY3Mzcw
-NSwtNTQ3NzU0MDI4LC0xNTY5NDg0OTg1LC03MzA0NzczNzgsMT
-UzNTIxMjc0OSw2MTc4OTQ2OTYsLTE2NDMwNTk0NTFdfQ==
+eyJoaXN0b3J5IjpbLTE2NTI5OTY0NDAsLTY2NTU5NzQ2Miw4MT
+ExNjY0NzEsLTU3Nzg5NDE3NSwtMTEzNjI4MTExMCwtODQ0MTI0
+MjcxLDIxNTE5NDM2MSw1ODIxMTMxNDIsLTU0Nzg5MTc0NSwxOT
+gyOTU4Mjk3LDgyNjA0NDE0NiwtMTI4Mjk1OTc3NCwtNDk2Njcz
+NzA1LC01NDc3NTQwMjgsLTE1Njk0ODQ5ODUsLTczMDQ3NzM3OC
+wxNTM1MjEyNzQ5LDYxNzg5NDY5NiwtMTY0MzA1OTQ1MV19
 -->
