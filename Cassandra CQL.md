@@ -105,7 +105,7 @@ INSERT INTO killrvideo.videos (videoid, tags)
 
 `SELECT * FROM killrvideo.video_recommendations where userid = 11111111-1111-1111-1111-111111111111;`
 
-[a sample](https://i.imgur.com/3eCVr1Q.png)
+![a sample](https://i.imgur.com/3eCVr1Q.png)
 
 ### Update command
 ```
@@ -122,10 +122,10 @@ Alter table commands
 ALTER TABLE cycling.cyclist_alt_stats ADD age int;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MjQzMDIxMSwtMTU2MDA3NTExOSwtMT
-kwMjc1ODc1LDc4NTk4MzM1NywtMzgwMjQ1MDQ3LC02ODc5NjAz
-OTUsMjAxMDA3MDg3MywtMjEzMzI2MDcxMiwxMjk1NjQwNzEyLC
-0yMDM2NzQ1MDQxLC0zNDA4MzM3MTksNDk4MzkzMTEyLC03MDcx
-ODg0MDAsMjA2ODI2NjM4NSwtNjU0ODIwNDk5LDE1MDM3OTQ1OD
-YsMzkzNzEyMDAwXX0=
+eyJoaXN0b3J5IjpbMTM5MzAwODQ4LDE3NTI0MzAyMTEsLTE1Nj
+AwNzUxMTksLTE5MDI3NTg3NSw3ODU5ODMzNTcsLTM4MDI0NTA0
+NywtNjg3OTYwMzk1LDIwMTAwNzA4NzMsLTIxMzMyNjA3MTIsMT
+I5NTY0MDcxMiwtMjAzNjc0NTA0MSwtMzQwODMzNzE5LDQ5ODM5
+MzExMiwtNzA3MTg4NDAwLDIwNjgyNjYzODUsLTY1NDgyMDQ5OS
+wxNTAzNzk0NTg2LDM5MzcxMjAwMF19
 -->
