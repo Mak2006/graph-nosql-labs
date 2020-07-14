@@ -27,7 +27,6 @@ CREATE TABLE killrvideo.users (
 //  colName datatype,
     userid uuid,
     firstname text, 
-    lastname text, 
     email text,
     created_date timestamp,
     tags set<text>,       # a set element example
@@ -103,8 +102,8 @@ if you want to insert with a specific key **(insert will now update)**
 `SELECT * FROM killrvideo.video_recommendations where userid = 11111111-1111-1111-1111-111111111111;`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MDk5ODQ1LDIwMTAwNzA4NzMsLTIxMz
-MyNjA3MTIsMTI5NTY0MDcxMiwtMjAzNjc0NTA0MSwtMzQwODMz
-NzE5LDQ5ODM5MzExMiwtNzA3MTg4NDAwLDIwNjgyNjYzODUsLT
-Y1NDgyMDQ5OSwxNTAzNzk0NTg2LDM5MzcxMjAwMF19
+eyJoaXN0b3J5IjpbLTY4Nzk2MDM5NSwyMDEwMDcwODczLC0yMT
+MzMjYwNzEyLDEyOTU2NDA3MTIsLTIwMzY3NDUwNDEsLTM0MDgz
+MzcxOSw0OTgzOTMxMTIsLTcwNzE4ODQwMCwyMDY4MjY2Mzg1LC
+02NTQ4MjA0OTksMTUwMzc5NDU4NiwzOTM3MTIwMDBdfQ==
 -->
