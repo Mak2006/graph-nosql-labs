@@ -138,14 +138,16 @@ What is the data required for each use case.
 
 ## Cassandra data types
 1. SET -  un ordered, list of strings.
-2. COUNTER - a SEQUENCE ID. We cannot insert a row with counter, we can only update. 
-
+2. COUNTER - a SEQUENCE ID. We cannot insert a row with counter, we can only update.  -   Counters cannot be part of a primary key
+-   Incrementing or decrementing counters is not idempotent
+-   Incrementing or decrementing a counter is not always guaranteed to work - under high traffic situations, it is possible for one of these operations to get dropped
+3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzUwMjE3LC0xOTEyNTE5OTA4LDI5ND
-gzNjE1MSwtMjExOTYwMTAwOCwxNDU0Nzg2NTgsMTg1MjU4NDI0
-MCwtMTQyNzYxNTc3LDY4OTQzNjcwMSw1ODczNTEwOTAsLTE5OT
-UwODg3MzksLTY2NTU5NzQ2Miw4MTExNjY0NzEsLTU3Nzg5NDE3
-NSwtMTEzNjI4MTExMCwtODQ0MTI0MjcxLDIxNTE5NDM2MSw1OD
-IxMTMxNDIsLTU0Nzg5MTc0NSwxOTgyOTU4Mjk3LDgyNjA0NDE0
-Nl19
+eyJoaXN0b3J5IjpbMTQyOTAwNTQ5MywtMTkxMjUxOTkwOCwyOT
+Q4MzYxNTEsLTIxMTk2MDEwMDgsMTQ1NDc4NjU4LDE4NTI1ODQy
+NDAsLTE0Mjc2MTU3Nyw2ODk0MzY3MDEsNTg3MzUxMDkwLC0xOT
+k1MDg4NzM5LC02NjU1OTc0NjIsODExMTY2NDcxLC01Nzc4OTQx
+NzUsLTExMzYyODExMTAsLTg0NDEyNDI3MSwyMTUxOTQzNjEsNT
+gyMTEzMTQyLC01NDc4OTE3NDUsMTk4Mjk1ODI5Nyw4MjYwNDQx
+NDZdfQ==
 -->
