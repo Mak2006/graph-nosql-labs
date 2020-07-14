@@ -67,6 +67,7 @@ read_repair_chance = 0.0
 Another example 
 
 ```
+
 CREATE TABLE killrvideo.video_recommendations (
     userid uuid,
     added_date timestamp,
@@ -101,7 +102,7 @@ if you want to insert with a specific key **(insert will now update)**
 `SELECT * FROM killrvideo.video_recommendations where userid = 11111111-1111-1111-1111-111111111111;`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDY0MzcwNSwtMjEzMzI2MDcxMiwxMj
+eyJoaXN0b3J5IjpbMjAxMDA3MDg3MywtMjEzMzI2MDcxMiwxMj
 k1NjQwNzEyLC0yMDM2NzQ1MDQxLC0zNDA4MzM3MTksNDk4Mzkz
 MTEyLC03MDcxODg0MDAsMjA2ODI2NjM4NSwtNjU0ODIwNDk5LD
 E1MDM3OTQ1ODYsMzkzNzEyMDAwXX0=
