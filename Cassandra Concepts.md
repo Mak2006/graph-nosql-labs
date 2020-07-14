@@ -112,10 +112,16 @@ What is the data required for each use case.
 |                     |                   |                                                 |                 |   |
 ```
 
-**Table definition for UC's
-**
+**Table definition for UC's**
+
+|                     | Primary key | Primary key                                     | clustering columns | Other cols |   |
+|---------------------|-------------|-------------------------------------------------|--------------------|------------|---|
+| SU1 -LOGIN          | userid      | USERNAME PASSWORD                               |                    |            |   |
+| SU2 - User creation | email       | USER NAME, PASSWORD, FIRSTNM, LAST NAMEM, EMAIL |                    |            |   |
+|                     |             |                                                 |                    |            |   |
 
 
+ 
  
 
 ## C* rdbms differences
@@ -129,11 +135,11 @@ What is the data required for each use case.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUzOTczOTM5LC0xNDI3NjE1NzcsNjg5ND
-M2NzAxLDU4NzM1MTA5MCwtMTk5NTA4ODczOSwtNjY1NTk3NDYy
-LDgxMTE2NjQ3MSwtNTc3ODk0MTc1LC0xMTM2MjgxMTEwLC04ND
-QxMjQyNzEsMjE1MTk0MzYxLDU4MjExMzE0MiwtNTQ3ODkxNzQ1
-LDE5ODI5NTgyOTcsODI2MDQ0MTQ2LC0xMjgyOTU5Nzc0LC00OT
-Y2NzM3MDUsLTU0Nzc1NDAyOCwtMTU2OTQ4NDk4NSwtNzMwNDc3
-Mzc4XX0=
+eyJoaXN0b3J5IjpbMTg1MjU4NDI0MCwtMTQyNzYxNTc3LDY4OT
+QzNjcwMSw1ODczNTEwOTAsLTE5OTUwODg3MzksLTY2NTU5NzQ2
+Miw4MTExNjY0NzEsLTU3Nzg5NDE3NSwtMTEzNjI4MTExMCwtOD
+Q0MTI0MjcxLDIxNTE5NDM2MSw1ODIxMTMxNDIsLTU0Nzg5MTc0
+NSwxOTgyOTU4Mjk3LDgyNjA0NDE0NiwtMTI4Mjk1OTc3NCwtND
+k2NjczNzA1LC01NDc3NTQwMjgsLTE1Njk0ODQ5ODUsLTczMDQ3
+NzM3OF19
 -->
