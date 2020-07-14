@@ -115,11 +115,17 @@ UPDATE killrvideo.videos SET tags = { 'High-brow', 'Intellectual', '22Refined' }
 `UPDATE killrvideo.video_playback_stats  SET views = views + 1 WHERE videoid = 12121212-1212-1212-1212-121212121212;
 `
 
+
+## DDL
+Alter table commands
+````
+ALTER TABLE cycling.cyclist_alt_stats ADD age int;
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDgwNzc5MjMsLTE1NjAwNzUxMTksLT
-E5MDI3NTg3NSw3ODU5ODMzNTcsLTM4MDI0NTA0NywtNjg3OTYw
-Mzk1LDIwMTAwNzA4NzMsLTIxMzMyNjA3MTIsMTI5NTY0MDcxMi
-wtMjAzNjc0NTA0MSwtMzQwODMzNzE5LDQ5ODM5MzExMiwtNzA3
-MTg4NDAwLDIwNjgyNjYzODUsLTY1NDgyMDQ5OSwxNTAzNzk0NT
-g2LDM5MzcxMjAwMF19
+eyJoaXN0b3J5IjpbMTc1MjQzMDIxMSwtMTU2MDA3NTExOSwtMT
+kwMjc1ODc1LDc4NTk4MzM1NywtMzgwMjQ1MDQ3LC02ODc5NjAz
+OTUsMjAxMDA3MDg3MywtMjEzMzI2MDcxMiwxMjk1NjQwNzEyLC
+0yMDM2NzQ1MDQxLC0zNDA4MzM3MTksNDk4MzkzMTEyLC03MDcx
+ODg0MDAsMjA2ODI2NjM4NSwtNjU0ODIwNDk5LDE1MDM3OTQ1OD
+YsMzkzNzEyMDAwXX0=
 -->
