@@ -3,7 +3,7 @@
 ### Meta commands
 // Describe the schema of the keyspace
 `Describe keyspace keyspaceName` 
-example -
+example - `DESCRIBE killrvideo video_re	
 
 
 ### Create commands
@@ -68,7 +68,7 @@ INSERT INTO killrvideo.users (userid, firstname, lastname, email, created_date)+
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzYyMzc2MjcsLTcwNzE4ODQwMCwyMD
-Y4MjY2Mzg1LC02NTQ4MjA0OTksMTUwMzc5NDU4NiwzOTM3MTIw
-MDBdfQ==
+eyJoaXN0b3J5IjpbNDk4MzkzMTEyLC03MDcxODg0MDAsMjA2OD
+I2NjM4NSwtNjU0ODIwNDk5LDE1MDM3OTQ1ODYsMzkzNzEyMDAw
+XX0=
 -->
