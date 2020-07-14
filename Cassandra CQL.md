@@ -88,9 +88,11 @@ CREATE TABLE killrvideo.video_recommendations (
 INSERT INTO killrvideo.users (userid, firstname, lastname, email, created_date)+
   VALUES(uuid(), 'Jeff', 'Carpenter', 'jc@datastax.com', toTimestamp(now()));
 ```
-> Written with [StackEdit](https://stackedit.io/).
+
+### Select statements
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzY3NDUwNDEsLTM0MDgzMzcxOSw0OT
-gzOTMxMTIsLTcwNzE4ODQwMCwyMDY4MjY2Mzg1LC02NTQ4MjA0
-OTksMTUwMzc5NDU4NiwzOTM3MTIwMDBdfQ==
+eyJoaXN0b3J5IjpbNTI2NzQwMzI4LC0yMDM2NzQ1MDQxLC0zND
+A4MzM3MTksNDk4MzkzMTEyLC03MDcxODg0MDAsMjA2ODI2NjM4
+NSwtNjU0ODIwNDk5LDE1MDM3OTQ1ODYsMzkzNzEyMDAwXX0=
 -->
