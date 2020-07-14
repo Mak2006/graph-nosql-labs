@@ -112,6 +112,7 @@ What is the data required for each use case.
 |                     |                   |                                                 |                 |   |
 ```
 
+Table definition for UC's
 
  
 
@@ -126,7 +127,7 @@ What is the data required for each use case.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI3NDQ4Njk1LDU4NzM1MTA5MCwtMTk5NT
+eyJoaXN0b3J5IjpbNjg5NDM2NzAxLDU4NzM1MTA5MCwtMTk5NT
 A4ODczOSwtNjY1NTk3NDYyLDgxMTE2NjQ3MSwtNTc3ODk0MTc1
 LC0xMTM2MjgxMTEwLC04NDQxMjQyNzEsMjE1MTk0MzYxLDU4Mj
 ExMzE0MiwtNTQ3ODkxNzQ1LDE5ODI5NTgyOTcsODI2MDQ0MTQ2
