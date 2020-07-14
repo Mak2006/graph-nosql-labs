@@ -85,10 +85,13 @@ For killrvideo what are the use cases
 	3. MU2 - See the comments on my videos
 	4. MU3 - get to see other videos - recommended for me
 	5. MU4 - Search for a video and see the results 
-	6. 
+	6. MU5 - have a list of friends
+	7. MU6 - have favorites list etc. 
+	8. 
 2. Secondary use cases
 	3. SU1 - Login and account maintenance
-	4. SU2 - 
+	4. SU2 - User creation
+	5. SU3 - friend list  
 
 ## C* rdbms differences
 ```markdown
@@ -101,10 +104,10 @@ For killrvideo what are the use cases
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMjg2NzYzNiwtNjY1NTk3NDYyLDgxMT
-E2NjQ3MSwtNTc3ODk0MTc1LC0xMTM2MjgxMTEwLC04NDQxMjQy
-NzEsMjE1MTk0MzYxLDU4MjExMzE0MiwtNTQ3ODkxNzQ1LDE5OD
-I5NTgyOTcsODI2MDQ0MTQ2LC0xMjgyOTU5Nzc0LC00OTY2NzM3
-MDUsLTU0Nzc1NDAyOCwtMTU2OTQ4NDk4NSwtNzMwNDc3Mzc4LD
-E1MzUyMTI3NDksNjE3ODk0Njk2LC0xNjQzMDU5NDUxXX0=
+eyJoaXN0b3J5IjpbLTk3NTAxNTk5LC02NjU1OTc0NjIsODExMT
+Y2NDcxLC01Nzc4OTQxNzUsLTExMzYyODExMTAsLTg0NDEyNDI3
+MSwyMTUxOTQzNjEsNTgyMTEzMTQyLC01NDc4OTE3NDUsMTk4Mj
+k1ODI5Nyw4MjYwNDQxNDYsLTEyODI5NTk3NzQsLTQ5NjY3Mzcw
+NSwtNTQ3NzU0MDI4LC0xNTY5NDg0OTg1LC03MzA0NzczNzgsMT
+UzNTIxMjc0OSw2MTc4OTQ2OTYsLTE2NDMwNTk0NTFdfQ==
 -->
