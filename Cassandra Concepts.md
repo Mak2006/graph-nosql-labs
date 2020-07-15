@@ -157,6 +157,7 @@ C* isa thus an AP database by defulat.
 Without Joins how does C* handle data. In C*, we create tables specific to the queries required, redundant data is there in the table. Tables are denormalized. As such when upsert is made it is written to multiple tables. The primary keys are different and the data is same, inserted into two tables.
 ![](https://i.imgur.com/3dytiQl.png) 
 
+Referential integrity is ensured by application development or DSE apache 
 ## Cassandra data types
 1. SET -  un ordered, list of strings.
 2. COUNTER - a SEQUENCE ID. We cannot insert a row with counter, we can only update.  -   Counters cannot be part of a primary key
@@ -164,11 +165,11 @@ Without Joins how does C* handle data. In C*, we create tables specific to the q
 -   Incrementing or decrementing a counter is not always guaranteed to work - under high traffic situations, it is possible for one of these operations to get dropped
 3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTU5ODUxNzEsMTE3ODUyOTM1MCwtMT
-Q4Nzk1NTU2OCw5NjE3ODYwMjUsLTg0MzkxNzMzMiwtNjY2NjM0
-ODU2LC02Njk0MDk4MTksMTQyOTAwNTQ5MywtMTkxMjUxOTkwOC
-wyOTQ4MzYxNTEsLTIxMTk2MDEwMDgsMTQ1NDc4NjU4LDE4NTI1
-ODQyNDAsLTE0Mjc2MTU3Nyw2ODk0MzY3MDEsNTg3MzUxMDkwLC
-0xOTk1MDg4NzM5LC02NjU1OTc0NjIsODExMTY2NDcxLC01Nzc4
-OTQxNzVdfQ==
+eyJoaXN0b3J5IjpbOTQ4MjMyNjYsLTEzNTU5ODUxNzEsMTE3OD
+UyOTM1MCwtMTQ4Nzk1NTU2OCw5NjE3ODYwMjUsLTg0MzkxNzMz
+MiwtNjY2NjM0ODU2LC02Njk0MDk4MTksMTQyOTAwNTQ5MywtMT
+kxMjUxOTkwOCwyOTQ4MzYxNTEsLTIxMTk2MDEwMDgsMTQ1NDc4
+NjU4LDE4NTI1ODQyNDAsLTE0Mjc2MTU3Nyw2ODk0MzY3MDEsNT
+g3MzUxMDkwLC0xOTk1MDg4NzM5LC02NjU1OTc0NjIsODExMTY2
+NDcxXX0=
 -->
