@@ -139,6 +139,7 @@ What is the data required for each use case.
 |TABLE FOR EACH QUERY   | YES   | NO SO FINE  | c* WE ARE OK with denormalized data  |   |
 |   |   |   |   |   |
 ``` 
+![diff](https://i.imgur.com/HhfFhzo.png)
 
 ## Cassandra data types
 1. SET -  un ordered, list of strings.
@@ -147,11 +148,11 @@ What is the data required for each use case.
 -   Incrementing or decrementing a counter is not always guaranteed to work - under high traffic situations, it is possible for one of these operations to get dropped
 3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzkxNzMzMiwtNjY2NjM0ODU2LC02Nj
-k0MDk4MTksMTQyOTAwNTQ5MywtMTkxMjUxOTkwOCwyOTQ4MzYx
-NTEsLTIxMTk2MDEwMDgsMTQ1NDc4NjU4LDE4NTI1ODQyNDAsLT
-E0Mjc2MTU3Nyw2ODk0MzY3MDEsNTg3MzUxMDkwLC0xOTk1MDg4
-NzM5LC02NjU1OTc0NjIsODExMTY2NDcxLC01Nzc4OTQxNzUsLT
-ExMzYyODExMTAsLTg0NDEyNDI3MSwyMTUxOTQzNjEsNTgyMTEz
-MTQyXX0=
+eyJoaXN0b3J5IjpbOTYxNzg2MDI1LC04NDM5MTczMzIsLTY2Nj
+YzNDg1NiwtNjY5NDA5ODE5LDE0MjkwMDU0OTMsLTE5MTI1MTk5
+MDgsMjk0ODM2MTUxLC0yMTE5NjAxMDA4LDE0NTQ3ODY1OCwxOD
+UyNTg0MjQwLC0xNDI3NjE1NzcsNjg5NDM2NzAxLDU4NzM1MTA5
+MCwtMTk5NTA4ODczOSwtNjY1NTk3NDYyLDgxMTE2NjQ3MSwtNT
+c3ODk0MTc1LC0xMTM2MjgxMTEwLC04NDQxMjQyNzEsMjE1MTk0
+MzYxXX0=
 -->
