@@ -154,7 +154,7 @@ CAP in c*
 ![](https://i.imgur.com/x7E3GTh.png)
 C* isa thus an AP database by defulat. 
 
-Without Joins how does C* handle data. In C*, we create tables specific to the queries required, redundant data is there in the table. Tables are denormalized. As such when upsert is made it is written to multiple tables. 
+Without Joins how does C* handle data. In C*, we create tables specific to the queries required, redundant data is there in the table. Tables are denormalized. As such when upsert is made it is written to multiple tables. The primary keys are different and the data is same, inserted into two tables.
 ![](https://i.imgur.com/3dytiQl.png) 
 
 ## Cassandra data types
@@ -164,11 +164,11 @@ Without Joins how does C* handle data. In C*, we create tables specific to the q
 -   Incrementing or decrementing a counter is not always guaranteed to work - under high traffic situations, it is possible for one of these operations to get dropped
 3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3ODUyOTM1MCwtMTQ4Nzk1NTU2OCw5Nj
-E3ODYwMjUsLTg0MzkxNzMzMiwtNjY2NjM0ODU2LC02Njk0MDk4
-MTksMTQyOTAwNTQ5MywtMTkxMjUxOTkwOCwyOTQ4MzYxNTEsLT
-IxMTk2MDEwMDgsMTQ1NDc4NjU4LDE4NTI1ODQyNDAsLTE0Mjc2
-MTU3Nyw2ODk0MzY3MDEsNTg3MzUxMDkwLC0xOTk1MDg4NzM5LC
-02NjU1OTc0NjIsODExMTY2NDcxLC01Nzc4OTQxNzUsLTExMzYy
-ODExMTBdfQ==
+eyJoaXN0b3J5IjpbLTEzNTU5ODUxNzEsMTE3ODUyOTM1MCwtMT
+Q4Nzk1NTU2OCw5NjE3ODYwMjUsLTg0MzkxNzMzMiwtNjY2NjM0
+ODU2LC02Njk0MDk4MTksMTQyOTAwNTQ5MywtMTkxMjUxOTkwOC
+wyOTQ4MzYxNTEsLTIxMTk2MDEwMDgsMTQ1NDc4NjU4LDE4NTI1
+ODQyNDAsLTE0Mjc2MTU3Nyw2ODk0MzY3MDEsNTg3MzUxMDkwLC
+0xOTk1MDg4NzM5LC02NjU1OTc0NjIsODExMTY2NDcxLC01Nzc4
+OTQxNzVdfQ==
 -->
