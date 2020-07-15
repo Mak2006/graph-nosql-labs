@@ -141,6 +141,9 @@ What is the data required for each use case.
 ``` 
 ![diff](https://i.imgur.com/HhfFhzo.png)
 
+The procedure to model in C*
+![](https://i.imgur.com/skRJICz.png)
+
 ## Cassandra data types
 1. SET -  un ordered, list of strings.
 2. COUNTER - a SEQUENCE ID. We cannot insert a row with counter, we can only update.  -   Counters cannot be part of a primary key
@@ -148,11 +151,11 @@ What is the data required for each use case.
 -   Incrementing or decrementing a counter is not always guaranteed to work - under high traffic situations, it is possible for one of these operations to get dropped
 3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYxNzg2MDI1LC04NDM5MTczMzIsLTY2Nj
-YzNDg1NiwtNjY5NDA5ODE5LDE0MjkwMDU0OTMsLTE5MTI1MTk5
-MDgsMjk0ODM2MTUxLC0yMTE5NjAxMDA4LDE0NTQ3ODY1OCwxOD
-UyNTg0MjQwLC0xNDI3NjE1NzcsNjg5NDM2NzAxLDU4NzM1MTA5
-MCwtMTk5NTA4ODczOSwtNjY1NTk3NDYyLDgxMTE2NjQ3MSwtNT
-c3ODk0MTc1LC0xMTM2MjgxMTEwLC04NDQxMjQyNzEsMjE1MTk0
-MzYxXX0=
+eyJoaXN0b3J5IjpbLTEzNzkyNDcyNzYsOTYxNzg2MDI1LC04ND
+M5MTczMzIsLTY2NjYzNDg1NiwtNjY5NDA5ODE5LDE0MjkwMDU0
+OTMsLTE5MTI1MTk5MDgsMjk0ODM2MTUxLC0yMTE5NjAxMDA4LD
+E0NTQ3ODY1OCwxODUyNTg0MjQwLC0xNDI3NjE1NzcsNjg5NDM2
+NzAxLDU4NzM1MTA5MCwtMTk5NTA4ODczOSwtNjY1NTk3NDYyLD
+gxMTE2NjQ3MSwtNTc3ODk0MTc1LC0xMTM2MjgxMTEwLC04NDQx
+MjQyNzFdfQ==
 -->
