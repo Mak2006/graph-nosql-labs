@@ -151,7 +151,8 @@ ACID C*
 **Tunable consistency** It means you can choose the level of consitency required. 
 
 CAP in c*
-![](https://i.imgur.com/x7E3GTh.png)_
+![](https://i.imgur.com/x7E3GTh.png)
+C* isa thus an AP database by defulat. 
 
 ## Cassandra data types
 1. SET -  un ordered, list of strings.
@@ -160,11 +161,11 @@ CAP in c*
 -   Incrementing or decrementing a counter is not always guaranteed to work - under high traffic situations, it is possible for one of these operations to get dropped
 3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODAwMjY1MjMsOTYxNzg2MDI1LC04ND
-M5MTczMzIsLTY2NjYzNDg1NiwtNjY5NDA5ODE5LDE0MjkwMDU0
-OTMsLTE5MTI1MTk5MDgsMjk0ODM2MTUxLC0yMTE5NjAxMDA4LD
-E0NTQ3ODY1OCwxODUyNTg0MjQwLC0xNDI3NjE1NzcsNjg5NDM2
-NzAxLDU4NzM1MTA5MCwtMTk5NTA4ODczOSwtNjY1NTk3NDYyLD
-gxMTE2NjQ3MSwtNTc3ODk0MTc1LC0xMTM2MjgxMTEwLC04NDQx
-MjQyNzFdfQ==
+eyJoaXN0b3J5IjpbMTQ4OTk1OTQ5NSw5NjE3ODYwMjUsLTg0Mz
+kxNzMzMiwtNjY2NjM0ODU2LC02Njk0MDk4MTksMTQyOTAwNTQ5
+MywtMTkxMjUxOTkwOCwyOTQ4MzYxNTEsLTIxMTk2MDEwMDgsMT
+Q1NDc4NjU4LDE4NTI1ODQyNDAsLTE0Mjc2MTU3Nyw2ODk0MzY3
+MDEsNTg3MzUxMDkwLC0xOTk1MDg4NzM5LC02NjU1OTc0NjIsOD
+ExMTY2NDcxLC01Nzc4OTQxNzUsLTExMzYyODExMTAsLTg0NDEy
+NDI3MV19
 -->
