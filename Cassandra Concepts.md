@@ -147,7 +147,7 @@ The procedure to model in C*
 ACID TRADITIONAL![](https://i.imgur.com/RHm6iUi.png)
 
 ACID C*
-![](
+![](https://i.imgur.com/Nz2oOID.png)
 ## Cassandra data types
 1. SET -  un ordered, list of strings.
 2. COUNTER - a SEQUENCE ID. We cannot insert a row with counter, we can only update.  -   Counters cannot be part of a primary key
@@ -155,11 +155,11 @@ ACID C*
 -   Incrementing or decrementing a counter is not always guaranteed to work - under high traffic situations, it is possible for one of these operations to get dropped
 3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNjk5NTEyMiw5NjE3ODYwMjUsLTg0Mz
-kxNzMzMiwtNjY2NjM0ODU2LC02Njk0MDk4MTksMTQyOTAwNTQ5
-MywtMTkxMjUxOTkwOCwyOTQ4MzYxNTEsLTIxMTk2MDEwMDgsMT
-Q1NDc4NjU4LDE4NTI1ODQyNDAsLTE0Mjc2MTU3Nyw2ODk0MzY3
-MDEsNTg3MzUxMDkwLC0xOTk1MDg4NzM5LC02NjU1OTc0NjIsOD
-ExMTY2NDcxLC01Nzc4OTQxNzUsLTExMzYyODExMTAsLTg0NDEy
-NDI3MV19
+eyJoaXN0b3J5IjpbLTE4NzQ5MTQyMjUsOTYxNzg2MDI1LC04ND
+M5MTczMzIsLTY2NjYzNDg1NiwtNjY5NDA5ODE5LDE0MjkwMDU0
+OTMsLTE5MTI1MTk5MDgsMjk0ODM2MTUxLC0yMTE5NjAxMDA4LD
+E0NTQ3ODY1OCwxODUyNTg0MjQwLC0xNDI3NjE1NzcsNjg5NDM2
+NzAxLDU4NzM1MTA5MCwtMTk5NTA4ODczOSwtNjY1NTk3NDYyLD
+gxMTE2NjQ3MSwtNTc3ODk0MTc1LC0xMTM2MjgxMTEwLC04NDQx
+MjQyNzFdfQ==
 -->
