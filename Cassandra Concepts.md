@@ -163,13 +163,13 @@ Referential integrity is ensured by application development or DSE apache spark.
 2. COUNTER - a SEQUENCE ID. We cannot insert a row with counter, we can only update.  -   Counters cannot be part of a primary key
 -   Incrementing or decrementing counters is not idempotent
 -   Incrementing or decrementing a counter is not always guaranteed to work - under high traffic situations, it is possible for one of these operations to get dropped
-3. 
+3. ata too large for a single server. The issue is the
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2ODM4MDIwNSwtMTM1NTk4NTE3MSwxMT
-c4NTI5MzUwLC0xNDg3OTU1NTY4LDk2MTc4NjAyNSwtODQzOTE3
-MzMyLC02NjY2MzQ4NTYsLTY2OTQwOTgxOSwxNDI5MDA1NDkzLC
-0xOTEyNTE5OTA4LDI5NDgzNjE1MSwtMjExOTYwMTAwOCwxNDU0
-Nzg2NTgsMTg1MjU4NDI0MCwtMTQyNzYxNTc3LDY4OTQzNjcwMS
-w1ODczNTEwOTAsLTE5OTUwODg3MzksLTY2NTU5NzQ2Miw4MTEx
-NjY0NzFdfQ==
+eyJoaXN0b3J5IjpbMjA1MzEyMjgxMiwtMjY4MzgwMjA1LC0xMz
+U1OTg1MTcxLDExNzg1MjkzNTAsLTE0ODc5NTU1NjgsOTYxNzg2
+MDI1LC04NDM5MTczMzIsLTY2NjYzNDg1NiwtNjY5NDA5ODE5LD
+E0MjkwMDU0OTMsLTE5MTI1MTk5MDgsMjk0ODM2MTUxLC0yMTE5
+NjAxMDA4LDE0NTQ3ODY1OCwxODUyNTg0MjQwLC0xNDI3NjE1Nz
+csNjg5NDM2NzAxLDU4NzM1MTA5MCwtMTk5NTA4ODczOSwtNjY1
+NTk3NDYyXX0=
 -->
